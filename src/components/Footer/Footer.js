@@ -3,8 +3,38 @@ import './Footer.css';
 function Footer() {
     return (
         <div className="footer">
-          <h2>Footer content to be added</h2>
-          <p>&copy; Julie Yudowitch 2021</p>
+            <div className='container'>
+                <div className='row'>
+                    {/*Column 1 */}
+                    <div className='col-md-3 col-sm-6'>
+                        <h4>Footer Stuff</h4>
+                        <ul className='list-unstyled'>
+                            <li>stuff</li>
+                            <li>stuff</li>
+                            <li>stuff</li>
+                        </ul>
+                    </div>
+                    <div className='col'>
+                        <h4>Footer Stuff</h4>
+                        <ul className='list-unstyled'>
+                            <li>stuff</li>
+                            <li>stuff</li>
+                            <li>stuff</li>
+                        </ul>
+                    </div>
+                    <div className='col'>
+                        <h4>Footer Stuff</h4>
+                        <ul className='list-unstyled'>
+                            <li>stuff</li>
+                            <li>stuff</li>
+                            <li>stuff</li>
+                        </ul>
+                    </div>
+                    <div className='row'>
+                      <p classNAme='col-sm'>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
+                    </div>
+                </div>
+            </div>    
         </div>
     )
 }

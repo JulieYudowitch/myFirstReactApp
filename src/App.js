@@ -11,12 +11,16 @@ function App() {
   return (  
       <Router>
       <div>
-        <Nav />
-        <Routes>
-          <Route path="/SearchImages" exact element={<SearchImages />}></Route>
-          <Route path="/Blog" exact element={<Blog />}></Route>
-          <Route path="/Shop" exact element={<Shop />}></Route>
-        </Routes>
+        <div>
+           <Nav />
+        </div>
+        <div className='page-container'>
+          <Routes>
+            <Route path="/SearchImages" exact element={<SearchImages />}></Route>
+            <Route path="/Blog" exact element={<Blog />}></Route>
+            <Route path="/Shop" exact element={<Shop />}></Route>
+          </Routes>
+        </div>
         <Footer />
       </div>
       </Router>  
