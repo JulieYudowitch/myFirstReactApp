@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navBar {
+  background-color: #cacaca;
+  padding: 30px;
+  margin: 50px;
+  display: flex;  
+  justify-content: space-evenly;
+}
+
+.item {
+    background-color:darkslateblue;
+    color:floralwhite;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.item:hover {
+  color:rgb(180, 180, 240);
+  font-size:  1.55rem;
+}
