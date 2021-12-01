@@ -1,5 +1,5 @@
-* {
-    text-align: center;
+.promise {
+    margin: 50px;
 }
 
 .poster {
@@ -11,6 +11,7 @@
     margin: auto;
     padding: 50px;
     padding-top: 50px;
+    margin-top: 50px;
 }
 
 .poster p {

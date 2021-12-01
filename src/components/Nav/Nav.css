@@ -1,12 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    text-decoration: none;
-}
-
-h1 {
+.header {
     margin: 20px;
     display: flex;
     justify-content: center;
@@ -14,8 +6,7 @@ h1 {
 }
 
 .navBar {
-  background-color: #cacaca;
-  padding: 30px;
+  background-color: #cacaca;  
   display: flex;  
   justify-content: space-evenly;
 }

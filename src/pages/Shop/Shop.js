@@ -3,9 +3,8 @@ import './Shop.css';
 function Shop() {
     return (
         <div>
-            <h1>Coming Soon!</h1>
-            <p>User login &</p>
-            <div className='poster'>
+            <h1 className='promise'>Coming Soon!</h1>
+                <div className='poster'>
                 <p>A store where you will actually be able to buy things!</p>
                 <p>Completely True Story...</p>
             </div>

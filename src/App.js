@@ -6,6 +6,7 @@ import SearchImages from'./pages/SearchImages/SearchImages';
 import Blog from './pages/Blog/Blog';
 import Shop from './pages/Shop/Shop';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Landing from './pages/Landing/Landing';
 
 function App() {
   return (  
@@ -16,6 +17,7 @@ function App() {
         </div>
         <div className='page-container'>
           <Routes>
+            <Route path="/" exact element={<Landing />}></Route> 
             <Route path="/SearchImages" exact element={<SearchImages />}></Route>
             <Route path="/Blog" exact element={<Blog />}></Route>
             <Route path="/Shop" exact element={<Shop />}></Route>
