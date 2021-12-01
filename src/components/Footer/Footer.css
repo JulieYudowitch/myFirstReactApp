@@ -4,9 +4,9 @@
     background-color: cadetblue;
 }
 
-.crow {
+.row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 @media all and (max-width: 500px) {

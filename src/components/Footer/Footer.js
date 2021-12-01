@@ -29,10 +29,10 @@ function Footer() {
                             <li>stuff</li>
                             <li>stuff</li>
                         </ul>
-                    </div>
-                    <div className='row'>
-                      <p classNAme='col-sm'>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
-                    </div>
+                    </div>                    
+                </div>
+                <div>
+                    <p classNAme='col-sm'>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
                 </div>
             </div>    
         </div>
