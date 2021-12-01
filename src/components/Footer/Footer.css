@@ -6,7 +6,10 @@
 
 .row {
     display: flex;
-    flex-direction: row;
+}
+
+.col {
+    margin: auto;
 }
 
 @media all and (max-width: 500px) {
