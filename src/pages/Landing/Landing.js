@@ -9,6 +9,7 @@ function Landing() {
             <p>User Login</p>
             <p>User settings including dark mode</p>
             <p>More pages</p>
+            <p>& more!</p>
         </div>
               
     )
