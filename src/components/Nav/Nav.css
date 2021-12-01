@@ -24,3 +24,8 @@
   color:rgb(180, 180, 240);
   font-size:  1.55rem;
 }
+
+@media only screen and (max-width: 768px) {
+    
+
+}
