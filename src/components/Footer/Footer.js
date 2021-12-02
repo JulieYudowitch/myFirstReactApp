@@ -1,4 +1,5 @@
 import './Footer.css';
+import Social from '../Social/Social';
 
 function Footer() {
     return (
@@ -32,7 +33,8 @@ function Footer() {
                     </div>                    
                 </div>
                 <div classsName='copyright'>
-                    <p>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
+                <p>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
+                <Social />
                 </div>
             </div>    
         
