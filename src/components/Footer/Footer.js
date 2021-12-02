@@ -11,23 +11,17 @@ function Footer() {
                         <h4>Footer Stuff</h4>
                         <ul>
                             <li>info</li>
-                            <li>info</li>
-                            <li>info</li>
                         </ul>
                     </div>
                     <div className='col'>
                         <h4>Footer Stuff</h4>
                         <ul>
                             <li>info</li>
-                            <li>info</li>
-                            <li>info</li>
                         </ul>
                     </div>
                     <div className='col'>
                         <h4>Footer Stuff</h4>
                         <ul>
-                            <li>info</li>
-                            <li>info</li>
                             <li>info</li>
                         </ul>
                     </div>                    
