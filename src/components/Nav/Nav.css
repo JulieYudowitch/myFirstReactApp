@@ -1,8 +1,10 @@
 .header {
+    color: black;
     margin: 20px;
     display: flex;
     justify-content: center;
     align-content: center;
+    
 }
 
 .navbar {
@@ -40,8 +42,8 @@
   }
 
   .menu {
-    position: absolute;
-    right: 5%;
+    display: flex;
+    align-items: flex-end;
     cursor: pointer;
   }
 
@@ -54,4 +56,9 @@
     font-size: small;
     background-color: none;
   }
+
+  .item:hover {
+  color:rgb(180, 180, 240);
+  font-size:  .9rem;
+}
 }

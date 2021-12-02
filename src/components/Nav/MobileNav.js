@@ -4,7 +4,7 @@ import { GrMenu } from 'react-icons/gr';
 import { useState } from 'react';
 
 function MobileNav() {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
     return (
         <nav className='mobilenav'>
