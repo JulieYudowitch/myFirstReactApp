@@ -5,7 +5,7 @@
     align-content: center;
 }
 
-.navBar {
+.navbar {
   background-color: #cacaca;  
   display: flex;  
   justify-content: space-evenly;
@@ -25,7 +25,17 @@
   font-size:  1.55rem;
 }
 
-@media only screen and (max-width: 768px) {
-    
+.nav .mobilenav {
+  display: none;
+}
 
+@media (max-width: 990px) {
+  .nav .navbar {
+    display: none;
+  }
+
+  .nav .mobilenav {
+    display: flex;
+    background-color: rgb(29, 74, 82);
+  }
 }
