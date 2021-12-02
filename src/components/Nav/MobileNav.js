@@ -1,13 +1,15 @@
-import classes from './Nav.css';
 import './Nav.css';
 import NavLinks from './NavLinks';
 import { GrMenu } from 'react-icons/gr';
+import { useState } from 'react';
 
 function MobileNav() {
+    const [open, setOpen] = useState(false);
+
     return (
-        <nav className={classes.mobilenav}>
-          <GrMenu className='menu' size='40px' color='white'/>
-          <NavLinks />
+        <nav className='mobilenav'>
+          <GrMenu className='menu' size='40px' color='white' onClick={() => setOpen(!open)}/>
+          {open && <NavLinks />}
         </nav>
     )
 }

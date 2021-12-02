@@ -1,10 +1,9 @@
-import classes from './Nav.css';
 import './Nav.css';
 import NavLinks from './NavLinks';
 
 function NavBar() {
     return (
-        <nav className={classes.navbar}>
+        <nav className='navbar'>
           <NavLinks />
         </nav>
     )

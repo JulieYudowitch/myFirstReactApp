@@ -30,12 +30,22 @@
 }
 
 @media (max-width: 990px) {
-  .nav .navbar {
+  .navbar {
     display: none;
   }
 
-  .nav .mobilenav {
+.nav .mobilenav {
     display: flex;
-    background-color: rgb(29, 74, 82);
+    background-color: cadetblue;
+  }
+
+  .menu {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .nav .navLinks {
+    background-color: cadetblue;
   }
 }
