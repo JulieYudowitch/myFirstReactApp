@@ -48,4 +48,10 @@
   .nav .navlinks {
     background-color: cadetblue;
   }
+
+  .item {
+    display: flex;
+    font-size: small;
+    background-color: none;
+  }
 }
