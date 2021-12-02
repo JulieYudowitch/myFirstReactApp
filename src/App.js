@@ -15,8 +15,9 @@ function App() {
         <div>
            <Nav />
         </div>
-        <div className='page-container'>
+        <div>
           <Routes>
+            <Route path="/myFirstReactApp" exact element={<Landing />}></Route>
             <Route path="/" exact element={<Landing />}></Route> 
             <Route path="/SearchImages" exact element={<SearchImages />}></Route>
             <Route path="/Blog" exact element={<Blog />}></Route>

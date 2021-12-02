@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
-        <div className='headerContainer'>
+        <div>
             <div className='Header'>
               <h1>Julie Yudowitch First React App</h1>
               <p>A work in progress for learning by doing</p>

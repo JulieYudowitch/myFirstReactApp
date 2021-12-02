@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <div className="footer">
+        
             <div className='container'>
                 <div className='row'>
                     {/*Column 1 */}
@@ -35,7 +35,7 @@ function Footer() {
                     <p>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
                 </div>
             </div>    
-        </div>
+        
     )
 }
 
