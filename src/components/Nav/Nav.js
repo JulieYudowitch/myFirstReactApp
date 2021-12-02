@@ -5,7 +5,8 @@ function Nav() {
     return (
         <div>
             <div className='Header'>
-              <h1>Julie Yudowitch First React App</h1>
+              <Link to="/myFirstReactApp"><h1>Julie Yudowitch First React App</h1></Link>
+              
               <p>A work in progress for learning by doing</p>
             </div>        
             <ul className='navBar'>
