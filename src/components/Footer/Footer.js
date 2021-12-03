@@ -11,7 +11,7 @@ function Footer() {
                   </div>
                   <div className='footer-info'>
                     <div>
-                      <a className='email' href='"mailto:julieyudo@gmail.com' target='_blank'>JulieYudo@gmail.com</a>                            
+                      <a className='email' href='mailto:julieyudo@gmail.com' target='_blank'>JulieYudo@gmail.com</a>                            
                     </div>
                     <div>
                       
