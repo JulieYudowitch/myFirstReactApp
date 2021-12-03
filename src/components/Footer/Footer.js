@@ -10,14 +10,14 @@ function Footer() {
                     <Social />
                   </div>
                   <div className='footer-info'>
-                    <div>
-                      <a className='email' href='mailto:julieyudo@gmail.com' target='_blank'>JulieYudo@gmail.com</a>                            
+                    <div  className='email' >
+                      <a  className='email'  href='mailto:julieyudo@gmail.com' target='_blank'>JulieYudo@gmail.com</a>                            
                     </div>
                     <div>
                       
                     </div>
                   </div>
-                  <p classsName='copyright'>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
+                  <p className='copyright'>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
                 </div>
             </footer> 
         </div>   
