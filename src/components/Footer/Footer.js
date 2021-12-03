@@ -25,11 +25,11 @@ function Footer() {
                             <li>info</li>
                         </ul>
                     </div>                    
-                </div>
-                <div>
+                </div>            
+                <div className='social-links'>
                   <Social />
-                  <p classsName='copyright'>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
-                </div>
+                </div>            
+                <p classsName='copyright'>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
             </div>    
         
     )

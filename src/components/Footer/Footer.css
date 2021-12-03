@@ -5,13 +5,18 @@
 
 .row {
     padding: 20px;
-    margin: 50px;
+    margin: 100px;
     display: flex;
 }
 
 .col {
     margin: auto;
 }
+
+.social-links {
+    margin: 50px;
+}
+
 
 
 
