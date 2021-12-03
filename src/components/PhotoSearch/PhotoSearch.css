@@ -9,3 +9,7 @@ input {
     justify-content: center;
     height: 50px;
 }
+
+.image {
+    max-width: 100%;
+}

@@ -26,9 +26,9 @@ function Footer() {
                         </ul>
                     </div>                    
                 </div>
-                <div classsName='copyright'>
-                <p>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
-                <Social />
+                <div>
+                  <Social />
+                  <p classsName='copyright'>&copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved</p>
                 </div>
             </div>    
         
