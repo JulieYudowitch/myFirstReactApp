@@ -1,4 +1,4 @@
-h1 {
+.header h1 {
   color: black;
 }
 
@@ -7,7 +7,7 @@ h1 {
     color: black;    
     justify-content: center;
     align-content: center;
-    background-color: rgb(220, 247, 177);
+    background-color: #a2e9b9;
     
 }
 
@@ -46,6 +46,8 @@ h1 {
   }
 
   .menu {
+    position: absolute;
+    right: 2%;
     display: flex;
     align-items: flex-end;
     cursor: pointer;
