@@ -47,8 +47,8 @@ function Social() {
           <a href="https://julieyudowitch.medium.com/"
           className="medium">
           <FontAwesomeIcon icon={faMedium} size="2x" />
-            </a>
-            <a href="https://www.pinterest.com/julieyudowitch/_saved/"
+          </a>
+          <a href="https://www.pinterest.com/julieyudowitch/_saved/"
           className="pinterest">
           <FontAwesomeIcon icon={faPinterest} size="2x" />
           </a>

@@ -2,8 +2,8 @@ import './Landing.css';
 
 function Landing() {
     return (
-        <div>
-            <h2 className='plans'>Plans for this App</h2>
+        <div className='plans'>
+            <h2 className='plans-title'>Plans for this App</h2>
             <p>Finish styling and mobile version</p>
             <p>Add functionality to existing pages</p>
             <p>User Login</p>

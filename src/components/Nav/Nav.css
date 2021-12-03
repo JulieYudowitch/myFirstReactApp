@@ -1,11 +1,11 @@
 h1 {
   color: black;
+  line-height: 0%;
 }
 
 .header {
     color: black;
-    margin: 20px;
-    display: flex;
+    margin: 10px;    
     justify-content: center;
     align-content: center;
     
