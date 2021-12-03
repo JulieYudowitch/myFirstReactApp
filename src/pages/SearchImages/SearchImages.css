@@ -1,5 +1,6 @@
-.photos {
+.photo-results {
     margin-top: 30px;
+    display: flex;
 }
 
 .placeholderImage {
