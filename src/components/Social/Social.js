@@ -24,13 +24,25 @@ function Social() {
           className="github">
           <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-          <a href="https://www.facebook.com/Julieyudowitch"
-          className="facebook">
-          <FontAwesomeIcon icon={faFacebook} size="2x" />
+          <a href="https://julieyudowitch.medium.com/"
+          className="medium">
+          <FontAwesomeIcon icon={faMedium} size="2x" />
+          </a>
+          <a href="https://julieyudowitch.blogspot.com/"
+          className="blogger">
+          <FontAwesomeIcon icon={faBlogger} size="2x" />
           </a>
           <a href="https://www.tiktok.com/@julieyudowitch?"
           className="tiktok">
           <FontAwesomeIcon icon={faTiktok} size="2x" />
+          </a>
+          <a href="https://www.pinterest.com/julieyudowitch/_saved/"
+          className="pinterest">
+          <FontAwesomeIcon icon={faPinterest} size="2x" />
+          </a>
+          <a href="https://www.facebook.com/Julieyudowitch"
+          className="facebook">
+          <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
           <a href="https://twitter.com/YudowitchJulie"
           className="twitter">
@@ -39,18 +51,6 @@ function Social() {
           <a href="https://www.instagram.com/julieyudowitch/"
           className="instagram">
           <FontAwesomeIcon icon={faInstagram} size="2x" />
-          </a>
-          <a href="https://julieyudowitch.blogspot.com/"
-          className="blogger">
-          <FontAwesomeIcon icon={faBlogger} size="2x" />
-          </a>
-          <a href="https://julieyudowitch.medium.com/"
-          className="medium">
-          <FontAwesomeIcon icon={faMedium} size="2x" />
-          </a>
-          <a href="https://www.pinterest.com/julieyudowitch/_saved/"
-          className="pinterest">
-          <FontAwesomeIcon icon={faPinterest} size="2x" />
           </a>
         </div>
     )

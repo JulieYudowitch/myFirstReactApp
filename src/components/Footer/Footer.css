@@ -14,6 +14,10 @@ footer {
   margin-bottom: 32px;
 }
 
+.footer-info {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
