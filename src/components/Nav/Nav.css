@@ -41,7 +41,7 @@ h1 {
 
 .nav .mobilenav {
     display: flex;
-    background-color: cadetblue;
+    background-color: #cacaca;
   }
 
   .menu {
@@ -51,17 +51,19 @@ h1 {
   }
 
   .nav .navlinks {
-    background-color: cadetblue;
+    background-color: #cacaca;
   }
 
   .item {
     display: flex;
     font-size: small;
-    background-color: none;
+    color:black;
+    background-color:#cacaca;
+    font-weight: 900;
   }
 
   .item:hover {
-  color:rgb(180, 180, 240);
+  color:darkslateblue;
   font-size:  .9rem;
 }
 }
