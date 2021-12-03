@@ -7,7 +7,10 @@ import {
     faFacebook,
     faTwitter,
     faInstagram,
-    faTiktok
+    faTiktok,
+    faBlogger,
+    faMedium,
+    faPinterest
 } from "@fortawesome/free-brands-svg-icons";
 
 function Social() {
@@ -36,6 +39,18 @@ function Social() {
           <a href="https://www.instagram.com/julieyudowitch/"
           className="instagram">
           <FontAwesomeIcon icon={faInstagram} size="2x" />
+          </a>
+          <a href="https://julieyudowitch.blogspot.com/"
+          className="blogger">
+          <FontAwesomeIcon icon={faBlogger} size="2x" />
+          </a>
+          <a href="https://julieyudowitch.medium.com/"
+          className="medium">
+          <FontAwesomeIcon icon={faMedium} size="2x" />
+            </a>
+            <a href="https://www.pinterest.com/julieyudowitch/_saved/"
+          className="pinterest">
+          <FontAwesomeIcon icon={faPinterest} size="2x" />
           </a>
         </div>
     )
