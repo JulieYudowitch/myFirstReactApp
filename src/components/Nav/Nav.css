@@ -3,10 +3,11 @@ h1 {
 }
 
 .header {
-    color: black;
-    margin: 10px;    
+    padding: 20px;
+    color: black;    
     justify-content: center;
     align-content: center;
+    background-color: rgb(220, 247, 177);
     
 }
 
