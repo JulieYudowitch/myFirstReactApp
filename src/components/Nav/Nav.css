@@ -15,17 +15,19 @@
 }
 
 .navbar {
-  background-color: #cacaca;  
+   
   display: flex;  
   justify-content: space-evenly;
 }
 
 .item {
-    background-color:darkslateblue;
+    color:black;
     font-size: 1.5rem;
     padding: 20px;
     margin: 10px;
     flex-grow: 1;
+    font-weight: 900;
+    text-shadow: 1px 1px rgb(77, 184, 161);
 }
 
 .item:hover {
@@ -60,10 +62,11 @@
   }
 
   .item {
+    color:darkslateblue;
+    text-shadow: 1px 1px rgb(77, 184, 161);
     display: flex;
     font-size: small;
     color:black;
-    background-color:#cacaca;
     font-weight: 900;
   }
 
