@@ -4,6 +4,11 @@
   margin-bottom: 20px;
 }
 
+.header {
+  background-color: #a2e9b9;
+  
+}
+
 .nav {
     color: black;    
     justify-content: center;
