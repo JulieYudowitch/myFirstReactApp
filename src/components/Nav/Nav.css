@@ -1,6 +1,7 @@
 .header h1 {
   color: black;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .nav {
@@ -10,7 +11,7 @@
     background-image: url('https://i.ibb.co/kBWsxBb/business-g76b2e88ce-1280.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 290px;
 }
 
 .navbar {
@@ -38,7 +39,7 @@
 
 .description {
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -47,8 +48,7 @@
   }
 
 .nav .mobilenav {
-    display: flex;
-    
+    display: flex;    
   }
 
   .menu {
@@ -57,10 +57,6 @@
     display: flex;
     align-items: flex-end;
     cursor: pointer;
-  }
-
-  .nav .navlinks {
-    
   }
 
   .item {
