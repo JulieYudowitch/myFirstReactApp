@@ -4,11 +4,6 @@
   margin-bottom: 20px;
 }
 
-.header {
-  background-color: #a2e9b9;
-  
-}
-
 .nav {
     color: black;    
     justify-content: center;
@@ -19,8 +14,7 @@
     height: 290px;
 }
 
-.navbar {
-   
+.navbar {   
   display: flex;  
   justify-content: space-evenly;
 }
