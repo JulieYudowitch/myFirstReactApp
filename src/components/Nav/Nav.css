@@ -19,9 +19,8 @@
 
 .item {
     color:black;
-    font-size: 1.5rem;
-    padding: 20px;
-    margin: 10px;
+    font-size: 1.5rem;    
+    margin: 30px;
     flex-grow: 1;
     font-weight: 900;
     text-shadow: 1px 1px rgb(77, 184, 161);
@@ -63,7 +62,7 @@
     color:darkslateblue;
     text-shadow: .5px .5px rgb(77, 184, 161);
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color:black;
     font-weight: 900;
   }
