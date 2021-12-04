@@ -1,17 +1,10 @@
-.plans {
-    margin-top: 30px;
-    margin-bottom: 100px;
+.landing-page {
+   background-color: #a2e9b9;
+   height: 400px;
+   padding: 20px;
 }
 
 .plans-title {
-    margin: 40px;
-}
-
-.land-image-container {
-    height: 40px;
-}
-
-.landing-image {
-    background-image: url('https://i.ibb.co/7XKKx0Z/james-harrison-vp-Oe-Xr5wm-R4-unsplash.jpg');
-  max-width: 100%;
+   margin: 30px;
+   margin-bottom: 50px;
 }

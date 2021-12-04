@@ -2,10 +2,7 @@ import './Landing.css';
 
 function Landing() {
     return (
-        <div>
-            <div className='land-image-container'>
-                <div className='landing-image'></div>
-            </div>
+        <div className='landing-page'>
             <div className='plans'>
                 <h2 className='plans-title'>Plans for this App</h2>
                 <p>Finish styling and mobile version (I am actively working on this part -12/3/2021)</p>

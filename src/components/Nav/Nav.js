@@ -12,7 +12,7 @@ function Nav() {
             </div>
             <div className='header'>
               <Link to="/myFirstReactApp"><h1>Julie Yudowitch First React App</h1></Link>              
-              <p>A work in progress for learning by doing</p>
+              <p>A work in progress</p>
             </div>           
         </div>
     )
