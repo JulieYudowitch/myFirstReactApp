@@ -8,11 +8,11 @@ function Nav() {
       <div>
         <div className='nav'>
               <MobileNav />
-              <NavBar />            
-              <div className='header'>
-                <Link to="/myFirstReactApp"><h1>Julie Yudowitch First React App</h1></Link>              
-                <p className='description'>A work in progress</p>
-              </div>
+              <NavBar />
+        </div>
+        <div className='header'>
+            <Link to="/myFirstReactApp"><h1>Julie Yudowitch First React App</h1></Link>              
+            <p className='description'>A work in progress</p>              
         </div>           
       </div>
     )

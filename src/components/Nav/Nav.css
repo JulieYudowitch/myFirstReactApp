@@ -36,7 +36,6 @@
 }
 
 .description {
-
   font-weight: 800;
 }
 
@@ -47,7 +46,7 @@
 
 .nav .mobilenav {
     display: flex;
-    background-color: #cacaca;
+    
   }
 
   .menu {
@@ -59,7 +58,7 @@
   }
 
   .nav .navlinks {
-    background-color: #cacaca;
+    
   }
 
   .item {
