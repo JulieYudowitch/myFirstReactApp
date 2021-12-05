@@ -1,5 +1,6 @@
 .header h1 {
   color: black;
+  margin: 0;
 }
 
 .nav {
@@ -37,7 +38,7 @@
 
 .description {
   font-weight: 800;
-  margin: 0;
+  margin-bottom: 10px;
   
 }
 
