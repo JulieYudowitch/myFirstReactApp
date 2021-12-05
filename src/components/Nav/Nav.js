@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Nav() {
     return (
       <div>
-        <div className='nav'>          
+        <div>          
           <MobileNav />
           <NavBar />
         </div>

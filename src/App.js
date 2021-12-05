@@ -13,7 +13,7 @@ function App() {
   return (  
       <Router>
       <div>
-        <div>
+        <div className='nav'>
            <Nav />
         </div>
         <div>

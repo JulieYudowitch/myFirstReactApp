@@ -9,7 +9,7 @@ function MobileNav() {
     return (
         <nav>
             <div className='mobilenav'>
-                <div>
+                <div className='mobilenav'>
                   <GrMenu className='menu' size='40px' color='white' onClick={() => setOpen(!open)} />
               {open &&
                 <ul>
