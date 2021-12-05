@@ -29,7 +29,7 @@
   font-size:  1.55rem;
 }
 
-.nav .mobile-nav {
+.mobile-nav-bar {
   display: none;
 }
 
@@ -51,8 +51,9 @@
     display: none;
   }
 
-.nav .mobile-nav {
+  .mobile-nav-bar {
     display: flex;
+    width: 100%;
   }
 
   .burger-icon {
@@ -63,6 +64,7 @@
 
   .mobile-menu {
     background-color: #cacaca;
+    width: 100%;
   }
 
   .mobile-nav-link {
