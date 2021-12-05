@@ -3,7 +3,7 @@ import './Landing.css';
 function Landing() {
     return (
         <div className='landing-page'>
-            <div className='header'>
+            <div className='title'>
               <h1>Julie Yudowitch First React App</h1>             
               <p className='description'>A work in progress</p>              
             </div>

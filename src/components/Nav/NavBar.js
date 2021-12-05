@@ -6,14 +6,14 @@ function NavBar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className='navbar'>            
-        <ul className='navlinks'>
-          <Link to='/myFirstReactApp' className="item" onClick={() => setOpen(!open)}>Home</Link>
-                  <Link to="/SearchImages" className="item" onClick={() => setOpen(!open)}>Search Images</Link>
-                  <Link to="/Blog" className="item" onClick={() => setOpen(!open)}>Blog & Comments</Link>
-                  <Link to="/Shop" className="item" onClick={() => setOpen(!open)}>Shop</Link>
-                </ul>
-        </nav>
+      <div className='nav-bar'>
+        <Link to='/myFirstReactApp' className="nav-link" onClick={() => setOpen(!open)}><img className='logo' src='https://i.ibb.co/hXMpJPr/logotransp.png'/></Link>        
+        <ul className='nav-links'>
+          <Link to="/SearchImages" className="nav-link" onClick={() => setOpen(!open)}>Search Images</Link>
+          <Link to="/Blog" className="nav-link" onClick={() => setOpen(!open)}>Blog & Comments</Link>
+          <Link to="/Shop" className="nav-link" onClick={() => setOpen(!open)}>Shop</Link>
+        </ul>
+      </div>
     )
 }
 

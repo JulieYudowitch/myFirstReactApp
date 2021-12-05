@@ -5,11 +5,10 @@ import NavBar from './NavBar';
 function Nav() {
     return (
       <div>
-        <div>          
+        <nav className='header'>          
           <MobileNav />
           <NavBar />
-        </div>
-               
+        </nav>               
       </div>
     )
 }
