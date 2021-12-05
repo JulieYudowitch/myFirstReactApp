@@ -1,14 +1,14 @@
-a {
-    padding:0 15px;
-    margin-bottom: 30px;
-}
-
-.social {
+.social-links {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     margin: 0;
     justify-content: center;
+}
+
+.social-link {
+    padding:0 15px;
+    margin-bottom: 30px;
 }
 

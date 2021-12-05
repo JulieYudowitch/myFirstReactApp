@@ -1,17 +1,11 @@
-input {
+.image-search-input {
     height: 50px;
     width: 300px;  
 }
 
-form {
+.search-bar {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    height: 50px;
     align-items: center;
 }
-
-.searchBar {
-    margin: 50px;
-    display: flex;    
-    height: 50px;
-}
-

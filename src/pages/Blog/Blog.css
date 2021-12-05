@@ -1,4 +1,4 @@
-.posterB {
+.blog-poster {
     background-color:rgb(79, 79, 82);
     color: white;   
     font-size: 20px;
@@ -9,4 +9,9 @@
     padding-top: 150px;
     border: 2px solid rgb(5, 5, 5);
     margin-bottom: 50px;
+}
+
+.blog {
+   background-color: #a2e9b9;   
+   padding: 20px;
 }

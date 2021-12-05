@@ -24,12 +24,11 @@ function PhotoSearch() {
     return (
         <div>
             <form>
-                <div className='searchBar'>
-                  <input onChange={handleChange} type='text' name='photo' />
-                  <img className='image' src="https://img.icons8.com/doodle/48/000000/search--v1.png"/>
-                </div>           
-
-                <div className='photos'>
+                <div className='search-bar'>
+                  <input className='image-search-input' onChange={handleChange} type='text' name='photo' />
+                  <img className='search-icon' src="https://img.icons8.com/doodle/48/000000/search--v1.png"/>
+                </div>       
+                <div className='image-search-results'>
                   {result.map((photo) => {
                    return <img src={photo.urls.small} />
                 })}
