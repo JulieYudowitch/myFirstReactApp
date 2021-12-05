@@ -8,7 +8,7 @@ function MobileNav() {
 
     return (
         <nav className='mobilenav'>
-            <GrMenu className='menu' size='40px' color='white' onClick={() => setOpen(!open)}/>
+            <GrMenu className='menu' size='40px' color='white' onClick={() => setOpen(!open)} />
             {open &&
                 <ul className='navlinks'>
                   <Link to="/SearchImages" className="item" onClick={() => setOpen(!open)}>Search Images</Link>
