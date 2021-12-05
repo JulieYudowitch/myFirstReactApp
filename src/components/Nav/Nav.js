@@ -9,11 +9,12 @@ function Nav() {
         <div className='nav'>
           <MobileNav />
           <NavBar />
-        </div>
-        <div className='header'>
+          <div className='header'>
             <Link to="/myFirstReactApp"><h1>Julie Yudowitch First React App</h1></Link>              
             <p className='description'>A work in progress</p>              
           </div>
+        </div>
+        
       </div>
     )
 }

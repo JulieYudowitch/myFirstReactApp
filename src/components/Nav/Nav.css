@@ -1,15 +1,16 @@
 .header h1 {
-  color: black;
+  color: rgb(9, 10, 10);
+  text-shadow: .25px .25px rgb(77, 184, 161);
 }
 
 .nav {
-    color: black;    
+    color: rgb(0, 0, 0);    
     justify-content: center;
     align-content: center;
     background-image: url('https://i.ibb.co/kBWsxBb/business-g76b2e88ce-1280.jpg');
     background-size: 100%;
-    background-repeat: no-repeat;
-    height: 290px;
+    background-repeat: no-repeat; 
+    height: 290px;  
 }
 
 .navbar {   
@@ -23,7 +24,7 @@
     margin: 30px;
     flex-grow: 1;
     font-weight: 900;
-    text-shadow: 1px 1px rgb(77, 184, 161);
+    text-shadow: .5px .5px rgb(77, 184, 161);
 }
 
 .item:hover {
@@ -37,7 +38,9 @@
 
 .description {
   font-weight: 800;
-  margin-bottom: 30px;
+  margin: 0;
+  color: rgb(9, 10, 10);
+  text-shadow: .25px .25px rgb(77, 184, 161);
 }
 
 @media (max-width: 768px) {
