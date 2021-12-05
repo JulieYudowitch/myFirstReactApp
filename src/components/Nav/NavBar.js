@@ -7,7 +7,8 @@ function NavBar() {
 
     return (
         <nav className='navbar'>            
-          <ul className='navlinks'>
+        <ul className='navlinks'>
+          <Link to='/myFirstReactApp' className="item" onClick={() => setOpen(!open)}>Home</Link>
                   <Link to="/SearchImages" className="item" onClick={() => setOpen(!open)}>Search Images</Link>
                   <Link to="/Blog" className="item" onClick={() => setOpen(!open)}>Blog & Comments</Link>
                   <Link to="/Shop" className="item" onClick={() => setOpen(!open)}>Shop</Link>

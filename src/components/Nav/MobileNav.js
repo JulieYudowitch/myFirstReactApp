@@ -9,18 +9,15 @@ function MobileNav() {
     return (
         <nav>
             <div className='mobilenav'>
-                <div className='mobilenav'>
-                  <GrMenu className='menu' size='40px' color='white' onClick={() => setOpen(!open)} />
-              {open &&
-                <ul>
+                <GrMenu className='menu' size='40px' color='white' onClick={() => setOpen(!open)} />
+                {open &&
+                <ul className='mobile-menu'>
                   <Link to='/myFirstReactApp' className="nav-link" onClick={() => setOpen(!open)}>Home</Link>
                   <Link to="/SearchImages" className="nav-link" onClick={() => setOpen(!open)}>Search Images</Link>
                   <Link to="/Blog" className="nav-link" onClick={() => setOpen(!open)}>Blog & Comments</Link>
                   <Link to="/Shop" className="nav-link" onClick={() => setOpen(!open)}>Shop</Link>
                 </ul>}
-                </div>
             </div>
-    
         </nav>
             
             
