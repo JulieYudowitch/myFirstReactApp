@@ -1,6 +1,5 @@
 .header h1 {
-  color: rgb(9, 10, 10);
-  text-shadow: .25px .25px rgb(77, 184, 161);
+  color: black;
 }
 
 .nav {
@@ -39,8 +38,7 @@
 .description {
   font-weight: 800;
   margin: 0;
-  color: rgb(9, 10, 10);
-  text-shadow: .25px .25px rgb(77, 184, 161);
+  
 }
 
 @media (max-width: 768px) {
