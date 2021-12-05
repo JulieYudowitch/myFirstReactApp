@@ -1,11 +1,12 @@
 .nav {
+    display: flex;
     color: rgb(0, 0, 0);    
     justify-content: center;
     align-content: center;
     background-image: url('https://i.ibb.co/kBWsxBb/business-g76b2e88ce-1280.jpg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    height: 270px;  
+    height: 270px;
 }
 
 .navbar {   
@@ -31,6 +32,11 @@
   display: none;
 }
 
+.logo {
+  display: flex;
+  height: 100px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none;
@@ -49,7 +55,7 @@
     cursor: pointer;
   }
 
-  .item {
+  .nav-link {
     color:darkslateblue;
     text-shadow: .25px .25px rgb(77, 184, 161);
     display: flex;

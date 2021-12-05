@@ -6,8 +6,7 @@ function NavBar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className='navbar'>
-            
+        <nav className='navbar'>            
           <ul className='navlinks'>
                   <Link to="/SearchImages" className="item" onClick={() => setOpen(!open)}>Search Images</Link>
                   <Link to="/Blog" className="item" onClick={() => setOpen(!open)}>Blog & Comments</Link>
