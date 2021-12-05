@@ -62,7 +62,7 @@
 
   .item {
     color:darkslateblue;
-    text-shadow: .5px .5px rgb(77, 184, 161);
+    text-shadow: .25px .25px rgb(77, 184, 161);
     display: flex;
     font-size: 1.1rem;
     color:black;
