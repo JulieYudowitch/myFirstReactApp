@@ -11,7 +11,7 @@ function MobileNav() {
             {!open &&
                 <div className='mobile-nav'>
                  <div>
-                  <Link to='/myFirstReactApp' className="nav-link"><img className='logo' src='https://i.ibb.co/kctZk8q/logotransp.png'/></Link>
+                  <Link to='/myFirstReactApp' className="nav-link"><img className='logo' src='https://i.ibb.co/t8xNLGC/logotransp.png'/></Link>
                  </div>
                 </div>
             }
