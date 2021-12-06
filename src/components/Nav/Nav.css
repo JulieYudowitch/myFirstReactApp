@@ -82,7 +82,6 @@
     width: 100%;
     background-color: #cacaca;
     opacity: .8;
-    width: 100%;
   }
 
   .mobile-nav-link {
@@ -101,7 +100,7 @@
   .mobile-menu-ul {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 300px;
   }
 
   .logo {
