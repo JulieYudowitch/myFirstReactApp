@@ -6,7 +6,7 @@
     background-image: url('https://i.ibb.co/kBWsxBb/business-g76b2e88ce-1280.jpg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    height: 290px;
+    height: 250px;
     background-color: #a2e9b9;
 }
 
@@ -52,6 +52,10 @@
   display: flex;
   position: absolute;
   right: 5%;
+}
+
+.title {
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
@@ -100,5 +104,4 @@
     height: 100px;
     position: relative;
   }
-
-}
+} 
