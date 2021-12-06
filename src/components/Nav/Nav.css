@@ -78,9 +78,10 @@
   }
 
   .mobile-menu {
-    display: flex;
+    display: block;
     width: 100%;
     background-color: #cacaca;
+    opacity: .8;
     width: 100%;
   }
 
@@ -100,6 +101,7 @@
   .mobile-menu-ul {
     display: flex;
     flex-direction: column;
+    width: 400px;
   }
 
   .logo {
