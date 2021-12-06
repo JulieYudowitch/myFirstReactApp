@@ -74,6 +74,7 @@
   .mobile-menu {
     display: flex;
     width: 100%;
+    background-color: #cacaca;
   }
 
   .mobile-nav-link {
@@ -91,6 +92,7 @@
 
   .mobile-menu-ul {
     display: flex;
+    flex-direction: column;
     width: 100%;
   }
 
