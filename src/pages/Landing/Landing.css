@@ -10,6 +10,7 @@
 }
 
 .title {
+display: flex;
 background-color: white;
 padding: 10px;
 color: black;
@@ -19,4 +20,9 @@ max-width: 600px;
 
 .description {
    font-weight: 800;
+}
+
+.logo-on-title {
+  height: 150px;
+  margin-top: 30px;
 }

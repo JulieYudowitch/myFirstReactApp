@@ -54,10 +54,6 @@
   right: 5%;
 }
 
-.title {
-  margin-bottom: 0;
-}
-
 @media (max-width: 768px) {
   .nav-bar {
     display: none;
@@ -97,11 +93,10 @@
   .mobile-menu-ul {
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
 
   .logo {
     height: 100px;
-    position: relative;
+    top: 2%;
   }
 } 
