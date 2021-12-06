@@ -62,6 +62,7 @@
   .mobile-nav-bar {
     display: flex;
     width: 100%;
+    align-items: center;
   }
 
   .burger-icon {
@@ -75,6 +76,7 @@
     display: flex;
     width: 100%;
     background-color: #cacaca;
+    align-items: center;
   }
 
   .mobile-nav-link {
@@ -96,7 +98,7 @@
   }
 
   .logo {
-    height: 75px;
-    top: 2%;    
+    height: 60px;
+     top: 1%;   
   }
 } 
