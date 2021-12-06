@@ -28,7 +28,8 @@ max-width: 600px;
 
 .logo-on-title {
   height: 200px;
-  margin-top: 40px;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 @media (max-width: 768px) {
@@ -37,7 +38,7 @@ max-width: 600px;
    }
 
    .logo-on-title {
-      height: 125px;
-      margin-top: 30px;
+      height: 125px;      
+      margin-left: 0px;
    }
 }
