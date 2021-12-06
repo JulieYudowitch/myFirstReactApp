@@ -5,7 +5,7 @@ import NavBar from './NavBar';
 function Nav() {
     return (
       <div>
-        <nav className='header'>          
+        <nav className='header' >          
           <MobileNav />
           <NavBar />
         </nav>               
