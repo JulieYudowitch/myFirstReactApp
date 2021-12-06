@@ -67,7 +67,8 @@
 
   .burger-icon {
     position: absolute;
-    right: 2%;  
+    right: 2%;
+    top: 1%; 
     cursor: pointer;
   }
 
