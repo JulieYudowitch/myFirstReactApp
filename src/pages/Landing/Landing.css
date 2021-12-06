@@ -14,6 +14,7 @@ justify-content: space-evenly;
 display: flex;
 align-items: center;
 background-color: white;
+opacity: .9;
 padding: 10px;
 color: black;
 margin: auto;
