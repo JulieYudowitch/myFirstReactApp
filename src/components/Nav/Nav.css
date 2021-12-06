@@ -33,11 +33,20 @@
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu-ul {
+  display: none;
+}
+
 .logo {
   display: flex;
-  height: 60px;
+  height: 200px;
   position: absolute;
   left: 5%;
+  
 }
 
 .nav-links {
@@ -63,6 +72,7 @@
   }
 
   .mobile-menu {
+    display: flex;
     width: 100%;
   }
 
@@ -80,7 +90,12 @@
   }
 
   .mobile-menu-ul {
+    display: flex;
     width: 100%;
+  }
+
+  .logo {
+    height: 70px;
   }
 
 }

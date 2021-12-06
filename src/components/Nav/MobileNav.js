@@ -11,7 +11,7 @@ function MobileNav() {
             {!open &&
                 <div className='mobile-nav'>
                  <div>
-                  <Link to='/myFirstReactApp' className="nav-link"><img className='logo' src='https://i.ibb.co/hXMpJPr/logotransp.png'/></Link>
+                  <Link to='/myFirstReactApp' className="nav-link"><img className='logo' src='https://i.ibb.co/6Hj3PJb/logotransp.png'/></Link>
                  </div>
                 </div>
             }
@@ -20,10 +20,9 @@ function MobileNav() {
                   <GrMenu className='burger-icon' size='40px' color='white' onClick={() => setOpen(!open)} />
                 </div>
             </div>
-            
-          <div  className='mobile-menu'>                
+            <div  className='mobile-menu'> 
+                         
             {open &&
-           
                   <ul className='mobile-menu-ul'>
                   <Link to="/SearchImages" className="mobile-nav-link" onClick={() => setOpen(!open)}>Search Images</Link>
                   <Link to="/Blog" className="mobile-nav-link" onClick={() => setOpen(!open)}>Blog & Comments</Link>

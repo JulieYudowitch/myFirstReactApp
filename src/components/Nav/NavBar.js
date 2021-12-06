@@ -7,7 +7,7 @@ function NavBar() {
 
     return (
       <div className='nav-bar'>
-        <Link to='/myFirstReactApp' className="nav-link"><img className='logo' src='https://i.ibb.co/hXMpJPr/logotransp.png'/></Link>        
+        <Link to='/myFirstReactApp' className="nav-link"><img className='logo' src='https://i.ibb.co/kctZk8q/logotransp.png'/></Link>        
         <ul className='nav-links'>
           <Link to="/SearchImages" className="nav-link" onClick={() => setOpen(!open)}>Search Images</Link>
           <Link to="/Blog" className="nav-link" onClick={() => setOpen(!open)}>Blog & Comments</Link>
