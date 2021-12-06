@@ -3,14 +3,11 @@ import './Landing.css';
 function Landing() {
     return (
         <div className='landing-page'>
-            <div className='title'>
-                <div>
-                    <img className='logo-on-title' src='https://i.ibb.co/jk5S5Tm/logotransp.png'/>
-                </div>
+            <div className='title'>                
                 <div className='description'>                                
                    <p>A work in progress</p>
                    <h1>By Julie Yudowitch</h1> 
-                </div>                           
+                </div>
             </div>
             <div className='plans'>
                 <h2 className='plans-title'>Plans for this App</h2>
