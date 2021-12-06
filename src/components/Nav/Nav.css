@@ -26,6 +26,7 @@
 .nav-link:hover {
   color:rgb(63, 2, 68);
   font-size:  1.55rem;
+  transition: top ease 0.5s;
 }
 
 .mobile-nav-bar {
@@ -46,6 +47,10 @@
   position: absolute;
   left: 5%;
   top: 2%;
+}
+
+.logo:hover {
+  top: 1.5%;
 }
 
 .nav-links {
@@ -76,7 +81,7 @@
     display: flex;
     width: 100%;
     background-color: #cacaca;
-    align-items: center;
+    width: 100%;
   }
 
   .mobile-nav-link {
@@ -100,5 +105,9 @@
   .logo {
     height: 60px;
      top: 1.5%;   
+  }
+
+  .logo:hover {
+    top: 1%;
   }
 } 

@@ -27,12 +27,15 @@ function MobileNav() {
             <div className='mobile-menu'>
                 {
                     open &&
-                      <div className='mobile-menu'>
-                        <ul className='mobile-menu-ul'>
-                          <Link to="/SearchImages" className="mobile-nav-link" onClick={() => setOpen(!open)}>Search Images</Link>
-                          <Link to="/Blog" className="mobile-nav-link" onClick={() => setOpen(!open)}>Blog & Comments</Link>
-                          <Link to="/Shop" className="mobile-nav-link" onClick={() => setOpen(!open)}>Shop</Link>
-                        </ul>
+                    <div className='mobile-menu'>
+                        <div className='mobile-menu-ul'>
+                          <ul className='mobile-menu-ul'>
+                            <Link to="/SearchImages" className="mobile-nav-link" onClick={() => setOpen(!open)}>Search Images</Link>
+                            <Link to="/Blog" className="mobile-nav-link" onClick={() => setOpen(!open)}>Blog & Comments</Link>
+                            <Link to="/Shop" className="mobile-nav-link" onClick={() => setOpen(!open)}>Shop</Link>
+                          </ul>
+                        </div>
+                        
                         <div>
                           <GrMenu className='burger-icon' size='40px' color='white' onClick={() => setOpen(!open)} />
                         </div>
