@@ -5,7 +5,7 @@ function Landing() {
         <div className='landing-page'>
             <div className='title'>
               <h1>Julie Yudowitch First React App</h1>             
-              <p className='description'>A work in progress</p>              
+              <p>A work in progress</p>              
             </div>
             <div className='plans'>
                 <h2 className='plans-title'>Plans for this App</h2>
