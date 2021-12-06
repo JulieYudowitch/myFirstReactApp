@@ -11,7 +11,7 @@
 }
 
 .nav-bar {   
-  display: flex;  
+  display: flex;
   justify-content: space-evenly;
 }
 
@@ -43,10 +43,10 @@
 
 .logo {
   display: flex;
-  height: 150px;
+  height: 80px;
   position: absolute;
   left: 5%;
-  top: 2%;
+  top: 4%;
 }
 
 .logo:hover {
