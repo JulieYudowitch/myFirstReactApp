@@ -8,4 +8,9 @@
     justify-content: center;
     height: 50px;
     align-items: center;
+    margin-bottom: 50px;
+}
+
+.image-search-results {
+    margin-top: 50px;
 }

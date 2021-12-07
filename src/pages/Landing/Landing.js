@@ -31,7 +31,6 @@ function Landing() {
                 <div className='update'>
                   <p>-12/7/2021 Learning how to hide API keys so I can publish some of the functionality I have written</p>
                 </div>
-                <p>User Login</p>
                 <p>User settings including dark mode</p>
                 <p>More pages</p>
                 <p>& more!</p>
