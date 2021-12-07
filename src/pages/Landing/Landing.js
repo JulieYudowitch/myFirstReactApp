@@ -28,9 +28,6 @@ function Landing() {
                   <p>-12/7/2021 I'm moving on from styling for now but will come back to improve it later</p>
                 </div>
                 <p>Add functionality to existing pages</p>
-                <div className='update'>
-                  <p>-12/7/2021 Learning how to hide API keys so I can publish some of the functionality I have written</p>
-                </div>
                 <p>User settings including dark mode</p>
                 <p>More pages</p>
                 <p>& more!</p>
