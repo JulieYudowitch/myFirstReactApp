@@ -4,9 +4,8 @@ import PhotoSearch from '../../components/PhotoSearch/PhotoSearch';
 function SearchImages() {
     return (
         <div className='image-search-page'>
-          <h1>Coming Soon!</h1>
-          <p>Image Search</p>          
-          <div className='photo-results'>          
+          <h1>Image Search</h1>        
+          <div>          
             <PhotoSearch />
           </div>
         </div>

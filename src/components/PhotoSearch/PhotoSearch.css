@@ -3,9 +3,14 @@
     width: 300px;  
 }
 
-.search-bar {
+.image-search-bar {
     display: flex;
     justify-content: center;
     height: 50px;
     align-items: center;
+}
+
+.image-search-results {
+    display: flex;
+    margin-top: 50px;
 }
