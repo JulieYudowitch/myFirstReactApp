@@ -5,7 +5,7 @@ require('dotenv').config();
 
 function PhotoSearch() {
     const [photo, setPhoto] = useState('');
-    const [clientId, setClientId] = useState('process.env.API_KEY');
+    const [clientId, setClientId] = useState(process.env.REACT_APP_API_KEY);
     const [result, setResult] = useState([]);
     
     function handleChange(event) {
