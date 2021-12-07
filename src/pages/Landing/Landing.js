@@ -25,7 +25,7 @@ function Landing() {
                 </div>
                 <div class='update'>
                   <p >-12/3/2021 I am actively working on this part</p>
-                  <p>-12/7/2021 I'm moving on from styling for now but will come back and improve it later</p>
+                  <p>-12/7/2021 I'm moving on from styling for now but will come back to improve it later</p>
                 </div>
                 <p>Add functionality to existing pages</p>
                 <div className='update'>
