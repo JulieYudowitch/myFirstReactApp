@@ -30,6 +30,7 @@ function MobileNav() {
                     <div>
                         <div className='mobile-menu-ul'>
                           <ul>
+                            <li><Link to="/myFirstReactApp" className="mobile-nav-link" onClick={() => setOpen(!open)}>Home</Link></li>
                             <li><Link to="/SearchImages" className="mobile-nav-link" onClick={() => setOpen(!open)}>Search Images</Link></li>
                             <li><Link to="/Blog" className="mobile-nav-link" onClick={() => setOpen(!open)}>Blog & Comments</Link></li>
                             <li><Link to="/Shop" className="mobile-nav-link" onClick={() => setOpen(!open)}>Shop</Link></li>                       
