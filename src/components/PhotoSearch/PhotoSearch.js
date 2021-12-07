@@ -26,7 +26,7 @@ function PhotoSearch() {
             <form>
                 <div className='search-bar'>
                   <input className='image-search-input' onChange={handleChange} type='text' name='photo' />
-                  <img className='search-icon' src="https://img.icons8.com/doodle/48/000000/search--v1.png"/>
+                  <img className='search-icon' src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/>
                 </div>       
                 <div className='image-search-results'>
                   {result.map((photo) => {
