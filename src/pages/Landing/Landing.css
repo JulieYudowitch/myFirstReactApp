@@ -1,3 +1,14 @@
+.plans {
+   font-size: 1.1rem;
+   font-weight: 600;
+}
+
+.update {
+   font-size: 1rem;
+   font-weight: 500;
+   margin-bottom: 30px;;
+}
+
 .landing-page {
    background-color: #a2e9b9;
    min-height: 400px;
@@ -30,6 +41,22 @@ max-width: 600px;
   height: 200px;
   margin-top: 50px;
   margin-left: 20px;
+}
+
+.finished-task {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.finsished-task-title {
+   margin-right: 45px;
+}
+
+.checkmark {
+   margin-right: 10px;
+   height: 30px;
 }
 
 @media (max-width: 768px) {

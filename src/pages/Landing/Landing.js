@@ -1,4 +1,5 @@
 import './Landing.css';
+import { GiCheckMark } from 'react-icons/gi';
 
 function Landing() {
     return (
@@ -15,9 +16,21 @@ function Landing() {
             <div className='plans'>
                 <h2 className='plans-title'>Plans for this App</h2>
                 <div className='finished-task'>
-                    <p>Finish styling (I am actively working on this part -12/3/2021)</p>
-                </div>                
+                    <div>
+                      <GiCheckMark className='checkmark' size='40px' color='white' />
+                    </div>
+                    <div>
+                      <p className='finsished-task-title'>Finish styling</p>
+                    </div>                  
+                </div>
+                <div class='update'>
+                  <p >-12/3/2021 I am actively working on this part</p>
+                  <p>-12/7/2021 I'm moving on from styling for now but will come back and improve it later</p>
+                </div>
                 <p>Add functionality to existing pages</p>
+                <div className='update'>
+                  <p>-12/7/2021 Learning how to hide API keys so I can publish some of the functionality I have written</p>
+                </div>
                 <p>User Login</p>
                 <p>User settings including dark mode</p>
                 <p>More pages</p>
