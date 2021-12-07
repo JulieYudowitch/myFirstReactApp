@@ -4,7 +4,7 @@
 }
 
 .update {
-   font-size: 1rem;
+   font-size: .9rem;
    font-weight: 500;
    margin-bottom: 30px;;
 }
@@ -18,6 +18,7 @@
 .plans-title {
    margin: 30px;
    margin-bottom: 50px;
+   margin-top: 50px;
 }
 
 .title {
