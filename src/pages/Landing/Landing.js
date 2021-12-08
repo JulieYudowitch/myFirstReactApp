@@ -29,7 +29,7 @@ function Landing() {
                 </div>
           <p>Add functionality to existing pages</p>
           <div class='update'>
-            <p>-12/7/2021 working on Image Search</p>
+            <p>-12/7/2021 working on Image Search using 3rd party API</p>
           </div>
                 <p>User settings including dark mode</p>
                 <p>More pages</p>

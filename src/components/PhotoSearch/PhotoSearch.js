@@ -7,6 +7,7 @@ function PhotoSearch() {
     const [photo, setPhoto] = useState('');
     const [clientId, setClientId] = useState(process.env.REACT_APP_API_KEY);
     const [result, setResult] = useState([]);
+    const [page, setPage] = useState('1')
     
     function handleChange(event) {
         setPhoto(event.target.value);
@@ -16,7 +17,9 @@ function PhotoSearch() {
         setPhoto(event.target.value)
     }
 
-    const url = `https://api.unsplash.com/search/photos?page=1&query="${photo}"&client_id=${clientId}`;
+
+    const url = `https://api.unsplash.com/search/photos?per_page=20&page=${page}?&query="${photo}"&client_id=${clientId}`;
+    const mobileURL = `https://api.unsplash.com/search/photos?per_page=20?page=1&query="${photo}"&client_id=${clientId}`;
     
     useEffect(() => {
       axios.get(url).then(response => {
@@ -35,7 +38,7 @@ function PhotoSearch() {
                 <div className='image-search-results-container'>
                     <div className='image-search-results'>
                         {result.map((photo) => {
-                   return <img src={photo.urls.thumb} />
+                   return <img className='image-search-result-item' src={photo.urls.thumb} />
                 })}
                     </div>                  
                 </div>

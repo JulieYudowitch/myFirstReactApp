@@ -14,3 +14,8 @@
 .image-search-results {
     max-width: 100%;
 }
+
+.image-search-result-item {
+  margin: 10px;
+  max-width: 100%;
+}
