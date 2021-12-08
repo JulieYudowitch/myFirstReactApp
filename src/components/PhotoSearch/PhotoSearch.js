@@ -29,9 +29,11 @@ function PhotoSearch() {
                   <img className='search-icon' src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/>
                 </div>       
                 <div className='image-search-results'>
-                  {result.map((photo) => {
+                    <div>
+                        {result.map((photo) => {
                    return <img src={photo.urls.small} />
                 })}
+                    </div>                  
                 </div>
             </form>
         </div>
