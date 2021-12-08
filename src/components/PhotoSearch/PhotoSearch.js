@@ -4,23 +4,19 @@ import axios from 'axios';
 require('dotenv').config();
 
 function PhotoSearch() {
+    const clientId = process.env.REACT_APP_API_KEY;
     const [photo, setPhoto] = useState('');
-    const [clientId, setClientId] = useState(process.env.REACT_APP_API_KEY);
     const [result, setResult] = useState([]);
     const [page, setPage] = useState('1')
+    const [deliveryPhoto, setDeliveryPhoto]  = useState('');
     
     function handleChange(event) {
-        setPhoto(event.target.value);
+        setDeliveryPhoto(event.target.value);
     }
 
     function handleSubmit(event) {
-        setPhoto(event.target.value)
+        setPhoto(deliveryPhoto)
     }
-
-    function handleClick(event) {
-        console.log(photo)
-    }
-
 
     const url = `https://api.unsplash.com/search/photos?per_page=20&page=${page}?&query="${photo}"&client_id=${clientId}`;
     
@@ -34,8 +30,8 @@ function PhotoSearch() {
     return (
         <div>
             <div className='image-search-bar'>
-                <input className='image-search-input' placeholder='Enter a category' onChange={handleChange} onSubmit={handleSubmit} type='text' name='photo'/>
-                <button type='submit' onClick={handleClick} className='image-search-icon'><img src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/></button>
+                <input className='image-search-input' onChange={handleChange} placeholder='Enter a category' type='text' name='photo'/>
+                <button type='submit' onClick={handleSubmit} className='image-search-icon'><img src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/></button>
             </div>            
             <form>                       
                 <div className='image-search-results-container'>
