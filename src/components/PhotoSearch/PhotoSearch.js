@@ -12,6 +12,10 @@ function PhotoSearch() {
         setPhoto(event.target.value);
     }
 
+    function handleSubmit(event) {
+        setPhoto(event.target.value)
+    }
+
     const url = `https://api.unsplash.com/search/photos?page=1&query="${photo}"&client_id=${clientId}`;
     
     useEffect(() => {
@@ -24,7 +28,7 @@ function PhotoSearch() {
     return (
         <div>
             <div className='image-search-bar'>
-                <input className='image-search-input' onChange={handleChange} type='text' name='photo'/>
+                <input className='image-search-input' onChange={handleChange} onSubmit={handleSubmit} type='text' name='photo'/>
                 <img className='search-icon' src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/>
             </div>            
             <form>                       
