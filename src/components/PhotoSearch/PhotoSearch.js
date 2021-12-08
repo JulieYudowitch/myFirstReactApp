@@ -1,7 +1,9 @@
+import { TiArrowForwardOutline, TiArrowBackOutline } from 'react-icons/ti';
 import React, { useState, useEffect } from 'react';
 import './PhotoSearch.css';
 import axios from 'axios';
 require('dotenv').config();
+
 
 function PhotoSearch() {
     const clientId = process.env.REACT_APP_API_KEY;
@@ -18,6 +20,16 @@ function PhotoSearch() {
         setPhoto(deliveryPhoto)
     }
 
+    function handleClickFwd(event) {
+        setPage((page + 1))
+        event.preventDefault();
+    }
+
+    function handleClickBack(event) {
+        setPage((page - 1))
+        event.preventDefault();
+    }
+
     const url = `https://api.unsplash.com/search/photos?per_page=20&page=${page}?&query="${photo}"&client_id=${clientId}`;
     
     useEffect(() => {
@@ -29,16 +41,21 @@ function PhotoSearch() {
     
     return (
         <div>
-            <div className='image-search-bar'>
+            <div className='image-search-bar'>               
                 <input className='image-search-input' onChange={handleChange} placeholder='Enter a category' type='text' name='photo'/>
                 <button type='submit' onClick={handleSubmit} className='image-search-icon'><img src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/></button>
             </div>            
             <form>                       
                 <div className='image-search-results-container'>
                     <div className='image-search-results'>
+                        <div>
+                           <button><TiArrowBackOutline className='arrow' onClick={handleClickBack}/></button>
+                           <button><TiArrowForwardOutline className='arrow' onClick={handleClickFwd}/></button>
+                        </div>                       
                         {result.map((photo) => {
-                   return <img className='image-search-result-item' src={photo.urls.thumb} />
-                })}
+                            return <img className='image-search-result-item' src={photo.urls.thumb} />                           
+                        })}
+                        
                     </div>                  
                 </div>
             </form>
