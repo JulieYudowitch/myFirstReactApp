@@ -10,7 +10,7 @@ function PhotoSearch() {
     const [photo, setPhoto] = useState('');
     const [result, setResult] = useState([]);
     const [page, setPage] = useState('1')
-    const [deliveryPhoto, setDeliveryPhoto]  = useState('');
+    const [deliveryPhoto, setDeliveryPhoto] = useState('');
     
     function handleChange(event) {
         setDeliveryPhoto(event.target.value);
@@ -44,16 +44,23 @@ function PhotoSearch() {
             <div className='image-search-bar'>               
                 <input className='image-search-input' onChange={handleChange} placeholder='Enter a category' type='text' name='photo'/>
                 <button type='submit' onClick={handleSubmit} className='image-search-icon'><img src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/></button>
-            </div>            
+            </div>
+            {
+                photo && <div className='arrows'>
+                               <button className='arrow'><TiArrowBackOutline className='arrow' onClick={handleClickBack}/></button>
+                               <button className='arrow'><TiArrowForwardOutline className='arrow' onClick={handleClickFwd}/></button>
+                             </div>
+            }
+            
             <form>                       
                 <div className='image-search-results-container'>
                     <div className='image-search-results'>
-                        <div className='arrows'>
-                           <button className='arrow'><TiArrowBackOutline className='arrow' onClick={handleClickBack}/></button>
-                           <button className='arrow'><TiArrowForwardOutline className='arrow' onClick={handleClickFwd}/></button>
-                        </div>                       
+                                               
                         {result.map((photo) => {
-                            return <img className='image-search-result-item' src={photo.urls.thumb} />                         
+                            return <div>
+                                       <img className='image-search-result-item' src={photo.urls.thumb} />                                    
+                                   </div>                           
+                            
                             })}
                         
                     </div>                  
