@@ -28,3 +28,14 @@
 .image-search-icon:active {
     margin-top: 5px;
 }
+
+.arrows {
+
+}
+
+.arrow {
+    background-color: #a2e9b9;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}

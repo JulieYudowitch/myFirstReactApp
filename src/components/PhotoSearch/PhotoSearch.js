@@ -48,13 +48,13 @@ function PhotoSearch() {
             <form>                       
                 <div className='image-search-results-container'>
                     <div className='image-search-results'>
-                        <div>
-                           <button><TiArrowBackOutline className='arrow' onClick={handleClickBack}/></button>
-                           <button><TiArrowForwardOutline className='arrow' onClick={handleClickFwd}/></button>
+                        <div className='arrows'>
+                           <button className='arrow'><TiArrowBackOutline className='arrow' onClick={handleClickBack}/></button>
+                           <button className='arrow'><TiArrowForwardOutline className='arrow' onClick={handleClickFwd}/></button>
                         </div>                       
                         {result.map((photo) => {
-                            return <img className='image-search-result-item' src={photo.urls.thumb} />                           
-                        })}
+                            return <img className='image-search-result-item' src={photo.urls.thumb} />                         
+                            })}
                         
                     </div>                  
                 </div>
