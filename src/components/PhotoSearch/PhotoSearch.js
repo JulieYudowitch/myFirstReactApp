@@ -23,12 +23,10 @@ function PhotoSearch() {
     
     return (
         <div>
-
             <div className='image-search-bar'>
-                <input className='image-search-input' onChange={handleChange} type='text' name='photo' onclick="return false" />
+                <input className='image-search-input' onChange={handleChange} type='text' name='photo'/>
                 <img className='search-icon' src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/>
-            </div>
-            
+            </div>            
             <form>                       
                 <div className='image-search-results-container'>
                     <div className='image-search-results'>
