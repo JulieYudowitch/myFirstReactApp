@@ -17,9 +17,12 @@ function PhotoSearch() {
         setPhoto(event.target.value)
     }
 
+    function handleClick(event) {
+        console.log(photo)
+    }
+
 
     const url = `https://api.unsplash.com/search/photos?per_page=20&page=${page}?&query="${photo}"&client_id=${clientId}`;
-    const mobileURL = `https://api.unsplash.com/search/photos?per_page=20?page=1&query="${photo}"&client_id=${clientId}`;
     
     useEffect(() => {
       axios.get(url).then(response => {
@@ -31,8 +34,8 @@ function PhotoSearch() {
     return (
         <div>
             <div className='image-search-bar'>
-                <input className='image-search-input' onChange={handleChange} onSubmit={handleSubmit} type='text' name='photo'/>
-                <img className='search-icon' src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/>
+                <input className='image-search-input' placeholder='Enter a category' onChange={handleChange} onSubmit={handleSubmit} type='text' name='photo'/>
+                <button type='submit' onClick={handleClick} className='image-search-icon'><img src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/></button>
             </div>            
             <form>                       
                 <div className='image-search-results-container'>

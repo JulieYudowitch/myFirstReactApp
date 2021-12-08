@@ -19,3 +19,8 @@
   margin: 10px;
   max-width: 100%;
 }
+
+.image-search-icon {
+  background-color:#a2e9b9;
+  border: none;
+}
