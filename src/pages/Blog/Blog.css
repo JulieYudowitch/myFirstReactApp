@@ -49,5 +49,9 @@
     .blog-entry-menu {
         display: none;
     }
+
+    .blog-poster {
+        margin: 10px;
+    }
     
 }
