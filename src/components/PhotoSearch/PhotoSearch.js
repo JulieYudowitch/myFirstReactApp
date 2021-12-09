@@ -11,7 +11,6 @@ function PhotoSearch() {
     const [result, setResult] = useState([]);
     const [page, setPage] = useState('1')
     const [deliveryPhoto, setDeliveryPhoto] = useState('');
-    const [resultsUp, setResultsUp] = useState(false);
     
     function handleChange(event) {
         setDeliveryPhoto(event.target.value);
@@ -31,6 +30,12 @@ function PhotoSearch() {
         event.preventDefault();
     }
 
+    function handleKeyPress(event) {
+       if (event.charCode === 13) {
+       setPhoto(deliveryPhoto);
+    }
+    }
+
     const url = `https://api.unsplash.com/search/photos?per_page=20&page=${page}?&query="${photo}"&client_id=${clientId}`;
     
     useEffect(() => {
@@ -44,7 +49,7 @@ function PhotoSearch() {
         <div className='image-search-component'>
 
             <div className='image-search-bar'>               
-                <input className='image-search-input' onChange={handleChange} placeholder='Enter a category' type='text' name='photo'/>
+                <input className='image-search-input' onChange={handleChange} onKeyPress={handleKeyPress} placeholder='Enter a category' type='text' name='photo'/>
                 <button type='submit' onClick={handleSubmit} className='image-search-icon'><img src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/></button>
             </div>
 
@@ -53,9 +58,7 @@ function PhotoSearch() {
                          <button className='arrow'><TiArrowBackOutline className='arrow' onClick={handleClickBack}/></button>
                          <button className='arrow'><TiArrowForwardOutline className='arrow' onClick={handleClickFwd}/></button>
                         </div>
-            }
-           
-            
+            }            
             
             <div >
                 <form>                   
