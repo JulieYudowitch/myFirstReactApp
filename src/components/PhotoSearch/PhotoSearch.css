@@ -29,7 +29,10 @@
 }
 
 .image-search-icon {
+    align-items: center;
   border: none;
+  font-size: xx-large;
+  background-color: white;
 }
 
 .image-search-icon:active {
