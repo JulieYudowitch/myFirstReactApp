@@ -19,6 +19,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-search-results {
@@ -53,4 +55,11 @@
 
 .arrow:hover {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .arrow {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
