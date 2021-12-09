@@ -1,18 +1,28 @@
 .image-search-input {
-    height: 50px;
-    width: 300px;  
+    padding: 20px 50px;
 }
 
 .image-search-bar {
     display: flex;
     justify-content: center;
-    height: 50px;
     align-items: center;
     margin-bottom: 50px;
 }
+.image-search-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.image-search-results-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .image-search-results {
-    max-width: 100%;
+
 }
 
 .image-search-result-item {
@@ -36,6 +46,11 @@
 .arrow {
     background-color: #a2e9b9;
     border: none;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: x-large;
+    margin-left: 40px;
+    margin-right: 40px;   
+}
+
+.arrow:hover {
+  cursor: pointer;
 }
