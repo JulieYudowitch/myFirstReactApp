@@ -2,7 +2,8 @@
    justify-content: center;
    font-size: 1.1rem;
    font-weight: 600;
-   border: 5px solid rgb(25, 60, 61);
+   border: 3px solid rgb(25, 60, 61);
+   background-color: #cacaca;
    max-width: 500px;
    margin: auto;
    padding: 20px;
