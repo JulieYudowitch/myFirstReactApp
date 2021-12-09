@@ -67,7 +67,14 @@ function PhotoSearch() {
                     })}                        
                      </div>                       
                 </form>
-            </div>           
+            </div>
+            
+            {
+              photo && <div className='arrows'>
+                         <button className='arrow'><TiArrowBackOutline className='arrow' onClick={handleClickBack}/></button>
+                         <button className='arrow'><TiArrowForwardOutline className='arrow' onClick={handleClickFwd}/></button>
+                        </div>
+            }
         </div>
     )
 }
