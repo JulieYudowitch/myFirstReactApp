@@ -32,8 +32,8 @@ function PhotoSearch() {
 
     function handleKeyPress(event) {
        if (event.charCode === 13) {
-       setPhoto(deliveryPhoto);
-    }
+           setPhoto(deliveryPhoto);
+       }
     }
 
     const url = `https://api.unsplash.com/search/photos?per_page=20&page=${page}?&query="${photo}"&client_id=${clientId}`;
@@ -49,7 +49,7 @@ function PhotoSearch() {
         <div className='image-search-component'>
 
             <div className='image-search-bar'>               
-                <input className='image-search-input' onChange={handleChange} onKeyPress={handleKeyPress} placeholder='Enter a category' type='text' name='photo'/>
+                <input className='image-search-input' onChange={handleChange} onSubmit={handleKeyPress} placeholder='Enter a category' type='text' name='photo'/>
                 <button type='submit' onClick={handleSubmit} className='image-search-icon'><img src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/></button>
             </div>
 
