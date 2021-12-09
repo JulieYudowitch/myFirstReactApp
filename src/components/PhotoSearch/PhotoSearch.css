@@ -38,7 +38,7 @@
 }
 
 .arrows {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -58,5 +58,6 @@
     .arrow {
         margin-left: 10px;
         margin-right: 10px;
+        font-size: xx-large;
     }
 }
