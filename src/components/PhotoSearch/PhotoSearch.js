@@ -49,7 +49,7 @@ function PhotoSearch() {
         <div className='image-search-component'>
 
             <div className='image-search-bar'>               
-                <input className='image-search-input' onChange={handleChange} onKeyPress={handleKeyPress} placeholder='Enter a category' type='text' name='photo'/>
+                <input className='image-search-input' inputmode='search' onChange={handleChange} onKeyPress={handleKeyPress} placeholder='Enter a category' type='text' name='photo'/>
                 <button type='submit' onClick={handleSubmit} className='image-search-icon'><img src="https://img.icons8.com/doodle/48/000000/search--v1.png" alt='magnifying glass'/></button>
             </div>
 
@@ -62,7 +62,7 @@ function PhotoSearch() {
             
             <div >
                 <form>                   
-                    <div className='image-search-results-container'>                                               
+                    <div className='image-search-results-container'>                                            
                     {result.map((photo) => {
                         return <div>
                                  <img className='image-search-result-item' src={photo.urls.thumb} />                                    
