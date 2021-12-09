@@ -29,10 +29,11 @@
 }
 
 .image-search-icon {
-    align-items: center;
+  align-items: center;
   border: none;
   font-size: xx-large;
   background-color: white;
+  margin-left: 10px;
 }
 
 .image-search-icon:active {
