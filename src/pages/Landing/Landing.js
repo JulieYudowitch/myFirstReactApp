@@ -24,12 +24,13 @@ function Landing() {
                     </div>                  
                 </div>
                 <div class='update'>
-                  <p >-12/3/2021 I am actively working on this part</p>
-                  <p>-12/7/2021 I'm moving on from styling for now but will come back to improve it later</p>
+                  <p >-12/3/2021  I am actively working on this part</p>
+                  <p>-12/7/2021  I'm moving on from styling for now but will come back to improve it later</p>
                 </div>
           <p>Add functionality to existing pages</p>
           <div class='update'>
-            <p>-12/7/2021 working on Image Search using 3rd party API</p>
+            <p>-12/7/2021  Working on Image Search using 3rd party API</p>
+            <p>-12/9/2021  Starting a recipe blog</p>
           </div>
                 <p>User settings including dark mode</p>
                 <p>More pages</p>
