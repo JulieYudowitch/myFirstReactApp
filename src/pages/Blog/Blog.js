@@ -7,7 +7,7 @@ function Blog() {
                 <h1>Julie Yudowitch Food Blog</h1>
                 <div className='blog-container'>
                     <ul className='blog-entry-menu'>
-                        <li className='recipe'>BLTFMB (BLT with fresh mozz & basil</li>
+                        <li className='recipe'>BLTFMB (bacon lettuce tomato fresh mozz & basil)</li>
                         <li className='recipe'>Some Other Recipe</li>
                         <li className='recipe'>Some Other Other Recipe</li> 
                     </ul>
