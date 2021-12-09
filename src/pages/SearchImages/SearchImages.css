@@ -3,3 +3,10 @@
    padding: 20px;
    max-width: 100%;
 }
+
+@media (max-width: 768px) {
+  .image-search-greeting {
+    display: none;
+  }
+}
+
