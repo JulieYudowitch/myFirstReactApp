@@ -67,8 +67,9 @@ function PhotoSearch() {
             </div>
 
             {
-                !photo && <div>
-                    <p class='image-search-greeting'>Sometimes I like to just take a minute and look at pictures of cats.  What will you search for?</p>
+                !photo && <div className='image-search-prod'>
+                    <img className='cat-image' src='https://i.ibb.co/mCPhKWQ/kitten-g16d3623ae-1280.jpg' alt="kitten-g16d3623ae-1280"/>
+                    <p className='image-search-greeting'>Sometimes I like to just take a minute and look at pictures of cats.  What will you search for?</p>
                 </div>
             }
             
