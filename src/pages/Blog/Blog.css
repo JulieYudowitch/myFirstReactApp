@@ -1,4 +1,4 @@
-.blog-poster {
+.blog-entry {
     background-color:rgb(25, 60, 61);
     color: white;   
     font-size: 20px;
@@ -27,10 +27,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 400px;
 }
 
-.recipe {
+.picnic {
+    display: flex;
     border: 2px solid rgb(5, 5, 5);
     padding: 20px;
     margin: 20px;

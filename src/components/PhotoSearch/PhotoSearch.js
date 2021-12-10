@@ -49,13 +49,13 @@ function PhotoSearch() {
     return (
         <div className='image-search-component'>
 
-            <div className='image-search-bar'>               
-                <input className='image-search-input' inputmode='search' onChange={handleChange} onKeyPress={handleKeyPress} placeholder='Enter a category'  name='photo'/>
-                <button type='submit' onClick={handleSubmit} className='image-search-icon'><AiOutlineSearch /></button>
+            <div className='image-search-bar'>
+                <input className='image-search-input' inputmode='search' onChange={handleChange} onKeyPress={handleKeyPress} placeholder='Enter a category' name='photo' type='search' />
+                <button type='submit' onClick={handleSubmit} className='image-search-icon'><AiOutlineSearch /></button>                
             </div>   
             
             <div >
-                <form>                   
+                <div>
                     <div className='image-search-results-container'>                                            
                     {result.map((photo) => {
                         return <div>
@@ -63,7 +63,7 @@ function PhotoSearch() {
                                </div>                            
                     })}                        
                      </div>                       
-                </form>
+                </div>
             </div>
             
             {
