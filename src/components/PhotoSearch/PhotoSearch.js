@@ -65,6 +65,12 @@ function PhotoSearch() {
                      </div>                       
                 </div>
             </div>
+
+            {
+                !photo && <div>
+                    <p class='mobile-image-search-greeting'>Sometimes I like to just take a minute and look at pictures of cats.  What will you search for?</p>
+                </div>
+            }
             
             {
               photo && <div className='arrows'>
