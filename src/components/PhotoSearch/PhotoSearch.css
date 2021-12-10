@@ -59,10 +59,8 @@
 
 .image-search-greeting {
     font-size: large;
-    background-color:rgb(25, 60, 61);
-    color: white;    
+    color: rgb(25, 60, 61);    
     padding: 20px;
-    border: 2px solid rgb(5, 5, 5);
     margin: 20px;
 }
 
