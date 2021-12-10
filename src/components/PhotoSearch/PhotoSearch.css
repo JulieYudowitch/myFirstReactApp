@@ -57,10 +57,15 @@
   cursor: pointer;
 }
 
+.image-search-greeting {
+    font-size: large;
+}
+
 @media (max-width: 768px) {
     .arrow {
         margin-left: 20px;
         margin-right: 20px;
         font-size: xx-large;
     }
+
 }

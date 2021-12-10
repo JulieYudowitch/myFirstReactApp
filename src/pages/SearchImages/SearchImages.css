@@ -3,23 +3,3 @@
    padding: 20px;
    max-width: 100%;
 }
-
-.image-search-greeting {
-    font-size: large;
-}
-
-.mobile-image-search-greeting {
-    display: none;
-}
-
-@media (max-width: 768px) {
-  .image-search-greeting {
-    display: none;
-  }
-
-  .mobile-image-search-greeting {
-    display: block;
-    font-size: large;
-  }
-}
-

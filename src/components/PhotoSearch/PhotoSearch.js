@@ -68,7 +68,7 @@ function PhotoSearch() {
 
             {
                 !photo && <div>
-                    <p class='mobile-image-search-greeting'>Sometimes I like to just take a minute and look at pictures of cats.  What will you search for?</p>
+                    <p class='image-search-greeting'>Sometimes I like to just take a minute and look at pictures of cats.  What will you search for?</p>
                 </div>
             }
             
