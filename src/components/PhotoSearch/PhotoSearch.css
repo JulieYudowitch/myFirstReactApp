@@ -59,6 +59,11 @@
 
 .image-search-greeting {
     font-size: large;
+    background-color:rgb(25, 60, 61);
+    color: white;    
+    padding: 20px;
+    border: 2px solid rgb(5, 5, 5);
+    margin: 20px;
 }
 
 @media (max-width: 768px) {
@@ -66,6 +71,10 @@
         margin-left: 20px;
         margin-right: 20px;
         font-size: xx-large;
+    }
+
+    .image-search-greeting {
+        margin-bottom: 50px;
     }
 
 }

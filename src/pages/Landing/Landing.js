@@ -16,9 +16,7 @@ function Landing() {
               </div>
             </div>
         
-            <div className='login'>
-              <LogIn />
-            </div>
+            
         
             <div className='plans'>
                 <h2 className='plans-title'>Plans for this App</h2>
@@ -38,10 +36,15 @@ function Landing() {
           <div class='update'>
             <p>-12/7/2021  Working on Image Search using 3rd party API</p>
             <p>-12/9/2021  Starting a recipe blog</p>
+            <p>-12/10/2021  Starting a sign in or sign up</p>
           </div>
                 <p>User settings including dark mode</p>
                 <p>More pages</p>
                 <p>& more!</p>
+        </div>
+        
+        <div className='login'>
+              <LogIn />
             </div>
         </div>
               

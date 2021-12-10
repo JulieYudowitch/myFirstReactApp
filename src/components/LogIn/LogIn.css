@@ -1,13 +1,35 @@
 .login-container {
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
+    color: rgb(25, 60, 61);   
+    padding: 20px;
+    border: 2px solid rgb(25, 60, 61);
+    margin: auto;
+    justify-content: space-evenly;
+    max-width: 800px;
 }
 
 .sign-in {
+    margin-top: 40px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .sign-up {
     margin: auto;
+}
+
+.sign-in-button {
+   font-size: x-large;
+   margin-top: 20px;
+}
+
+.sign-up-button {
+    font-size: x-large;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+    }
 }
