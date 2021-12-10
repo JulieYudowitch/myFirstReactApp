@@ -1,5 +1,7 @@
 import './Landing.css';
 import { GiCheckMark } from 'react-icons/gi';
+import LogIn from '../../components/LogIn/LogIn';
+import { Link } from 'react-router-dom';
 
 function Landing() {
     return (
@@ -8,11 +10,16 @@ function Landing() {
                 <div>
                    <img className='logo-on-title' src='https://i.ibb.co/jk5S5Tm/logotransp.png' alt='Logo for My First React App'/> 
                 </div>
-                <div className='description'>                                
-                   <p>A work in progress</p>
-                   <h1>By Julie Yudowitch</h1> 
-                </div>
+              <div className='description'>                                
+                <p>A work in progress</p>
+                <h1>By Julie Yudowitch</h1> 
+              </div>
             </div>
+        
+            <div className='login'>
+              <LogIn />
+            </div>
+        
             <div className='plans'>
                 <h2 className='plans-title'>Plans for this App</h2>
                 <div className='finished-task'>

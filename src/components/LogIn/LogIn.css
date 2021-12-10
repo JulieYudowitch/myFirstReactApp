@@ -1,0 +1,13 @@
+.login-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.sign-in {
+    margin: auto;
+}
+
+.sign-up {
+    margin: auto;
+}

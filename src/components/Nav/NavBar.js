@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 function NavBar() {
-    const [open, setOpen] = useState(false);
+  
+  const [open, setOpen] = useState(false);
 
     return (
       <div className='nav-bar'>
@@ -23,3 +24,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
