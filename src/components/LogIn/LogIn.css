@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     box-sizing: border-box;
     background-image: url('https://i.ibb.co/JWTPT8k/network-ga5abf9043-1920.jpg');
-    background-size: 150%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -39,5 +39,6 @@
     .login-container {
         flex-direction: column;
         padding: 30px;
+        background-size: 300%;
     }
 }
