@@ -5,7 +5,10 @@ import { Link } from 'react-router-dom';
 
 function Landing() {
     return (
-        <div className='landing-page'>
+      <div className='landing-page'>
+            <div className='login'>
+              <LogIn />
+            </div>
             <div className='title'>
                 <div>
                    <img className='logo-on-title' src='https://i.ibb.co/jk5S5Tm/logotransp.png' alt='Logo for My First React App'/> 
@@ -14,10 +17,6 @@ function Landing() {
                 <p>A work in progress</p>
                 <h1>By Julie Yudowitch</h1> 
               </div>
-            </div>
-        
-        <div className='login'>
-              <LogIn />
             </div>
         </div>
               

@@ -7,8 +7,9 @@
     box-sizing: border-box;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url('https://i.ibb.co/yRqCVJN/businessjpg.jpg');
+    background-image: url('https://i.ibb.co/kBWsxBb/business-g76b2e88ce-1280.jpg');
     background-position: bottom;
+    height: 400px;
 }
 
 .sign-in {
@@ -34,10 +35,15 @@
     color: #1e1052;
 }
 
+.sign-up-prod {
+    font-size: large;
+}
+
 @media (max-width: 768px) {
     .login-container {
         flex-direction: column;
         padding: 30px;
         background-size: 100%;
+        background-image: url('https://i.ibb.co/yRqCVJN/businessjpg.jpg');
     }
 }

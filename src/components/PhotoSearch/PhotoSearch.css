@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
-    
+    width: 100%;
 }
 
 .image-search-results-container {
@@ -36,7 +36,7 @@
   font-size: xx-large;
   background: none;
   margin-left: 10px;
-  color: white;
+  color: black;
 }
 
 .image-search-icon:active {
@@ -62,8 +62,8 @@
 
 .image-search-greeting {
     font-size: 22px;
-    color: white; 
-    text-shadow: 1px 1px black;   
+    color: white;
+    text-shadow: 1px 1px black;
     padding: 20px;
     margin: 20px;
     height: 330px;
@@ -75,7 +75,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
+    background-image: url('https://i.ibb.co/2nnyC7b/catcropd2.jpg');  
     background-repeat: no-repeat;
     background-size: 120%;
     margin-top: 50px;
@@ -95,10 +96,8 @@
         top: 10px;
     }
 
-    .image-search-page {
-      background-image: url('https://i.ibb.co/mb5hj1X/catcroppedvert.jpg');
-      background-size: 140%;
-      background-repeat: no-repeat;
+    .image-search-prod {
+       background-image: url('https://i.ibb.co/mb5hj1X/catcroppedvert.jpg'); 
     }
 
 }

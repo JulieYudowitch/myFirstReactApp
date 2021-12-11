@@ -1,15 +1,7 @@
-.image-search-page {
-   min-height: 400px;
-   padding: 20px;
-   max-width: 100%;
-   background-image: url('https://i.ibb.co/2nnyC7b/catcropd2.jpg');
-}
-
 .image-search-prod {
    display: flex;
 }
 
 .image-search-title {
-   color: white;
-   text-shadow: 1px 1px black;
+   color: black;
 }
