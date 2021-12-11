@@ -22,6 +22,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    background: white;
 }
 
 .image-search-result-item {
