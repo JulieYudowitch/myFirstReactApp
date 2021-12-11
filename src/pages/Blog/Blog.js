@@ -25,7 +25,7 @@ function Blog() {
                     </div>
                 </div>
                 <div className='comments-container'>
-                    <h3 className='comments'>Would you try this picnic idea? Comment below!</h3>
+                    <h3 className='comments-prod'>Would you try this picnic idea? Comment below!</h3>
                     <input className='comments' placeholder='comment here'/>
                 </div>              
             </div>            
