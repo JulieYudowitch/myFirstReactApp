@@ -79,10 +79,6 @@
     margin-top: 50px;  
 }
 
-.image-search-overlay {
-   background-color: rgba(0,0,0,0.5);
-}
-
 @media (max-width: 768px) {
     .arrow {
         margin-left: 20px;
