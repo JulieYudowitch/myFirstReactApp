@@ -5,9 +5,9 @@
     margin: auto;
     justify-content: space-evenly;
     box-sizing: border-box;
-    background-image: url('https://i.ibb.co/JWTPT8k/network-ga5abf9043-1920.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+    background-image: url('https://i.ibb.co/yRqCVJN/businessjpg.jpg');
 }
 
 .sign-in {
@@ -25,20 +25,18 @@
 .sign-in-button {
    font-size: x-large;
    margin-top: 20px;
+   color: #1e1052;
 }
 
 .sign-up-button {
     font-size: x-large;
-}
-
-.sign-up-prod {
-    color: white;
+    color: #1e1052;
 }
 
 @media (max-width: 768px) {
     .login-container {
         flex-direction: column;
         padding: 30px;
-        background-size: 300%;
+        background-size: 100%;
     }
 }
