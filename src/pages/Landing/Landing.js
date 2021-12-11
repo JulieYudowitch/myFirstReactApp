@@ -37,6 +37,7 @@ function Landing() {
             <p>-12/7/2021  Working on Image Search using 3rd party API</p>
             <p>-12/9/2021  Starting a recipe blog</p>
             <p>-12/10/2021  Starting a sign in or sign up</p>
+            <p>-12/11/2021  Learning about security with API keys so I can actually display some of the functionality I've' built</p>
           </div>
                 <p>User settings including dark mode</p>
                 <p>More pages</p>
