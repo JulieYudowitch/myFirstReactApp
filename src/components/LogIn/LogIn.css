@@ -18,11 +18,13 @@
 .sign-up {
     margin: auto;
     box-sizing: border-box;
+    background-color: rgb(255, 255, 255, .5);
+    width: 300px;
 }
 
 .sign-in-button {
    font-size: x-large;
-   margin-top: 20px;
+   margin-top: 40px;
    color: #1e1052;
 }
 
@@ -40,4 +42,5 @@
         flex-direction: column;
         padding: 30px;
     }
+
 }
