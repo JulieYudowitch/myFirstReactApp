@@ -27,9 +27,9 @@ function SignIn() {
 
     return (
         <div className='sign-in-page'>
-            <input placeholder='email' onChange={handleEmailChange}/>
-            <input placeholder='password' />
-            <button className='create-account'>Sign In</button>
+            <input className='sign-input' placeholder='email' onChange={handleEmailChange}/>
+            <input className='sign-input'  placeholder='password' />
+            <button className='sign-in-submit'>Sign In</button>
         </div>
     )
 }

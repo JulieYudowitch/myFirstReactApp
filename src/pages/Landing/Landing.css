@@ -12,6 +12,10 @@
    border: 1px solid black;
 }
 
+.login {
+   margin-bottom: 40px;
+}
+
 .update {
    font-size: .9rem;
    font-weight: 500;
