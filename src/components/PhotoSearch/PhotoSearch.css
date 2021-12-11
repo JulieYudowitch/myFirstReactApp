@@ -86,14 +86,10 @@
         font-size: xx-large;
     }
 
-    .cat-image {
-        
-    }
-
     .image-search-greeting {
         margin: 10px;
         font-size: medium;
-        top: 130px;
+        top: 10px;
     }
 
     .image-search-prod {
