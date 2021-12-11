@@ -18,19 +18,21 @@
 .sign-up {
     margin: auto;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255, .5);
+    background-color: rgba(52, 85, 82, 0.5);
     width: 300px;
 }
 
 .sign-in-button {
    font-size: x-large;
    margin-top: 40px;
-   color: #1e1052;
+   color: white;
+   background-color: #1e1052;
 }
 
 .sign-up-button {
     font-size: x-large;
-    color: #1e1052;
+    color: white;
+   background-color: #1e1052;
 }
 
 .sign-up-prod {
