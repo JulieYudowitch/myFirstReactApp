@@ -64,6 +64,7 @@
     background-repeat: no-repeat; 
     height: 250px;
     background-position: bottom;
+    background-size: 130%;
   }
   
   .nav-bar {
