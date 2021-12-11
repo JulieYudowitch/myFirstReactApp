@@ -30,7 +30,7 @@ function SignIn() {
             <input placeholder='email' onChange={handleEmailChange}/>
             <input placeholder='password' />
             <input placeholder='re-enter password' />
-            <button onClick={createUser}>Create Account</button>
+            <button>Create Account</button>
         </div>
     )
 }
