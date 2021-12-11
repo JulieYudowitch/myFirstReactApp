@@ -47,7 +47,7 @@
     flex-direction: column;
     background-color:rgba(239, 245, 227, 0.7);
     border: 1px solid black;
-    max-width: 370px;
+    max-width: 400px;
     margin: 10px;
 }
 
@@ -74,7 +74,7 @@
     }
 
     .comments {
-        
+        max-width: 400px;
     }
 
     .comments-container {
