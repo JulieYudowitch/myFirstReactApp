@@ -8,8 +8,7 @@
     height: 200px;
 }
 
-.sign-in {
-    margin-top: 40px;
+.sign-in {    
     margin: auto;
     margin-bottom: 20px;
     box-sizing: border-box;
@@ -27,12 +26,14 @@
    margin-top: 40px;
    color: white;
    background-color: #1e1052;
+   border: none;
 }
 
 .sign-up-button {
     font-size: x-large;
     color: white;
-   background-color: #1e1052;
+    background-color: #1e1052;
+    border: none;
 }
 
 .sign-up-prod {
