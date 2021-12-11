@@ -87,7 +87,7 @@
     }
 
     .cat-image {
-        max-width: 150px;
+        
     }
 
     .image-search-greeting {
@@ -97,7 +97,8 @@
     }
 
     .image-search-prod {
-    background-image: url('https://i.ibb.co/mRq6dxT/cat-g3eb42a80b-1920.jpg');
+    background-image: url('https://i.ibb.co/mb5hj1X/catcroppedvert.jpg');
+    background-size: 130%;
 }
 
 }
