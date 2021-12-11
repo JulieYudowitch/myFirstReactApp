@@ -2,13 +2,13 @@
   background-image: url('https://i.ibb.co/LrrvQpC/bicycle-g99adf0475-1920.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: cadetblue;
+  background-color: rgb(32, 54, 54);
   padding: 30px;
 
 }
 
 .shop-poster {
-  background-color: rgb(255, 255, 255, .65);
+  background-color: rgba(255, 255, 255, 0.65);
   padding: 20px;
   height: 500px;
   border: 1px solid black;
