@@ -15,7 +15,7 @@ function NavBar() {
           <ul className='nav-links'>
             <Link to="/myFirstReactApp" className="nav-link" onClick={() => setOpen(!open)}>Home</Link>
             <Link to="/SearchImages" className="nav-link" onClick={() => setOpen(!open)}>Search Images</Link>
-            <Link to="/Blog" className="nav-link" onClick={() => setOpen(!open)}>Food Blog</Link>
+            <Link to="/Blog" className="nav-link" onClick={() => setOpen(!open)}>Picnic Blog</Link>
             <Link to="/Shop" className="nav-link" onClick={() => setOpen(!open)}>Shop</Link>
             <Link to="/SignIn" className="nav-link" onClick={() => setOpen(!open)}>Log In</Link>
           </ul>
