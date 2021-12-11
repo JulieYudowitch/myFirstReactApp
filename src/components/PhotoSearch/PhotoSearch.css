@@ -93,6 +93,7 @@
     .image-search-greeting {
         margin: 10px;
         font-size: medium;
+        top: 8px;
     }
 
     .image-search-prod {
@@ -103,7 +104,7 @@
     background-image: url('https://i.ibb.co/mRq6dxT/cat-g3eb42a80b-1920.jpg');
     background-repeat: no-repeat;
     background-size: 120%;
-    margin-top: 50px;  
+    margin-top: 40px;  
 }
 
 }
