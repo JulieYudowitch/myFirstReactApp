@@ -8,20 +8,16 @@ function Blog() {
                 <div className='blog-container'>
                     <ul className='blog-entry-menu'>
                         <li className='picnic'>
-                            <h5>Lorem Sandwich</h5>
-                            <p>Lorem ipsum dolor sit amet</p>                                             
+                            <h5>Lorem ipsum</h5>                                             
                         </li>
                         <li className='picnic'>
-                            <h5>ipsum soup</h5>
-                            <p>Ut enim ad minim veniam</p>
+                            <h5>ipsum veniam</h5>
                         </li>
                         <li className='picnic'>
-                            <h5>dolar pizza</h5>
-                            <p>consectetur adipiscing elit</p>
+                            <h5>dolar consectetur</h5>
                         </li>                        
                         <li className='picnic'>
-                            <h5>sit amet pasta</h5>
-                            <p>sed do eiusmod tempor</p>
+                            <h5>sit amet tempor</h5>
                         </li>                        
                     </ul>
                     <div className='blog-entry' >
@@ -30,7 +26,8 @@ function Blog() {
                     </div>
                 </div>
                 <div className='comments-container'>
-                  <h3>Would you try this picnic idea? Comment below!</h3>
+                    <h3 className='comments'>Would you try this picnic idea? Comment below!</h3>
+                    <input className='comments' placeholder='comment here'/>
                 </div>              
             </div>            
         </div>
