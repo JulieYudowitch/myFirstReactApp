@@ -7,6 +7,7 @@
     background-size: 100%;
     background-repeat: no-repeat; 
     height: 250px;
+    background-position: top;   
 }
 
 .nav-bar {   
@@ -59,6 +60,12 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    background-repeat: no-repeat; 
+    height: 250px;
+    background-position: bottom;
+  }
+  
   .nav-bar {
     display: none;
   }
