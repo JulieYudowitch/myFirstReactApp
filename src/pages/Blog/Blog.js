@@ -4,7 +4,6 @@ function Blog() {
     return (
         <div>
             <div className='blog-page'>
-                <h1>Julie Yudowitch Picnic Blog</h1>
                 <div className='blog-container'>
                     <ul className='blog-entry-menu'>
                         <li className='picnic'>
