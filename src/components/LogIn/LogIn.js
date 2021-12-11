@@ -8,9 +8,9 @@ function LogIn() {
                  <Link to="/SignIn"><button className='sign-in-button'>Sign in</button></Link>              
             </div>
             <div className='sign-up'>
-                <p>don't have an account?</p>
+                <p className='sign-up-prod'>don't have an account?</p>
                 <button className='sign-up-button'>Create Account</button>
-                <p>Sign up!</p>
+                <p className='sign-up-prod'>Sign up!</p>
             </div>
         </div>
     )

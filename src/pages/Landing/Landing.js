@@ -22,7 +22,7 @@ function Landing() {
                 <h2 className='plans-title'>Plans for this App</h2>
                 <div className='finished-task'>
                     <div>
-                      <GiCheckMark className='checkmark' size='40px' color='white' />
+                      <GiCheckMark className='checkmark' size='40px' color='cadetblue' />
                     </div>
                     <div>
                       <p className='finsished-task-title'>Finish styling</p>

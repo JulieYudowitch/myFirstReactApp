@@ -2,13 +2,14 @@
    justify-content: center;
    font-size: 1.1rem;
    font-weight: 600;
-   border: 3px solid rgb(25, 60, 61);
-   background-color: #cacaca;
+   background-size: 180%;
+   background-repeat: no-repeat;
    max-width: 500px;
    margin: auto;
    padding: 20px;
    margin-top: 50px;
    margin-bottom: 50px;
+   border: 1px solid black;
 }
 
 .update {

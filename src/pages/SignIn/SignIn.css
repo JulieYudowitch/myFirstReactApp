@@ -1,0 +1,5 @@
+.sign-in-page {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
