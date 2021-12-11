@@ -93,18 +93,11 @@
     .image-search-greeting {
         margin: 10px;
         font-size: medium;
-        top: 8px;
+        top: 250px;
     }
 
     .image-search-prod {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
     background-image: url('https://i.ibb.co/mRq6dxT/cat-g3eb42a80b-1920.jpg');
-    background-repeat: no-repeat;
-    background-size: 120%;
-    margin-top: 40px;  
 }
 
 }
