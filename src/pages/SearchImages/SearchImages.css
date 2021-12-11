@@ -4,4 +4,10 @@
 
 .image-search-title {
    color: black;
+   margin-top: 20px;
+   background-color: #cacaca;
+}
+
+.image-search-page {
+  background-color: #cacaca;
 }
