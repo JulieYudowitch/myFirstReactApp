@@ -12,12 +12,12 @@ footer {
 .footer-info {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 
 .email {
     color:black;
     font-size: 1.2rem;
-    margin-bottom: 20px;
 }
 
 .copyright {

@@ -16,34 +16,6 @@ function Landing() {
               </div>
             </div>
         
-            
-        
-            <div className='plans'>
-                <h2 className='plans-title'>Plans for this App</h2>
-                <div className='finished-task'>
-                    <div>
-                      <GiCheckMark className='checkmark' size='40px' color='cadetblue' />
-                    </div>
-                    <div>
-                      <p className='finsished-task-title'>Finish styling</p>
-                    </div>                  
-                </div>
-                <div class='update'>
-                  <p >-12/3/2021  I am actively working on this part</p>
-                  <p>-12/7/2021  I'm moving on from styling for now but will come back to improve it later</p>
-                </div>
-          <p>Add functionality to existing pages</p>
-          <div class='update'>
-            <p>-12/7/2021  Working on Image Search using 3rd party API</p>
-            <p>-12/9/2021  Starting a recipe blog</p>
-            <p>-12/10/2021  Starting a sign in or sign up</p>
-            <p>-12/11/2021  Learning about security with API keys so I can actually display some of the functionality I've' built</p>
-          </div>
-                <p>User settings including dark mode</p>
-                <p>More pages</p>
-                <p>& more!</p>
-        </div>
-        
         <div className='login'>
               <LogIn />
             </div>
