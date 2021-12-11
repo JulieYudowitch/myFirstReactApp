@@ -72,10 +72,12 @@
 
     .blog-entry-menu {
         display: none;
+        margin-top: 40px;
     }
 
     .blog-entry {
         margin: 10px;
+        margin-top: 40px;
     }
 
     .comments {
