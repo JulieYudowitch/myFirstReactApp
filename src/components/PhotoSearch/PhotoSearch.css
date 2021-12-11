@@ -58,11 +58,14 @@
 }
 
 .image-search-greeting {
-    font-size: large;
-    color: rgb(25, 60, 61);    
+    font-size: 22px;
+    color: white; 
+    text-shadow: 1px 1px black;   
     padding: 20px;
     margin: 20px;
-    justify-content: center;
+    height: 330px;
+    position: relative;
+    top: 20px;
 }
 
 .image-search-prod {
@@ -70,11 +73,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    background-image: url('https://i.ibb.co/2nnyC7b/catcropd2.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin-top: 50px;  
 }
 
-.cat-image {
-    max-width: 400px;
-    margin-bottom: 30px;
+.image-search-overlay {
+   background-color: rgba(0,0,0,0.5);
 }
 
 @media (max-width: 768px) {
@@ -91,5 +97,16 @@
     .image-search-greeting {
         margin: 10px;
     }
+
+    .image-search-prod {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('https://i.ibb.co/mRq6dxT/cat-g3eb42a80b-1920.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin-top: 50px;  
+}
 
 }
