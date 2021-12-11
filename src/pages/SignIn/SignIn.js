@@ -29,8 +29,7 @@ function SignIn() {
         <div className='sign-in-page'>
             <input placeholder='email' onChange={handleEmailChange}/>
             <input placeholder='password' />
-            <input placeholder='re-enter-password' />
-            <button className='create-account'>Create Account</button>
+            <button className='create-account'>Sign In</button>
         </div>
     )
 }
