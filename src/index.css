@@ -2,7 +2,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    text-align: center;   
+    text-align: center;  
 }
 
 html, body {
@@ -10,4 +10,5 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-x:hidden;
 }

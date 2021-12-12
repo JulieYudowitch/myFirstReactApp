@@ -80,10 +80,11 @@
   .nav-bar .rightside #hidden .nav-link {
     margin: 20px;
     background-color: white;
+     height: 500px;
   }
 
   .logo {
   height: 90%;
-  margin-left: 0px;
+  margin-left: 10px;
 }
 }
