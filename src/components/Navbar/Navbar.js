@@ -15,7 +15,7 @@ function Navbar() {
             </div>
            
             <div className='rightside'>
-                <div className='nav-bar-links' id={showMobileNav ? 'hidden' : ''}>
+                <div className='nav-bar-links' id={showMobileNav ? 'hidden' : ''} onClick={() => setShowMobileNav(!showMobileNav)}>
                   <Link to="/myFirstReactApp" className='nav-link'>Home</Link>
                   <Link to="/PhotoSearch" className='nav-link'>Search Images</Link>
                   <Link to="/Blog" className='nav-link'>Picnic Blog</Link>
