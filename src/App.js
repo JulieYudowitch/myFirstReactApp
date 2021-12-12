@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
 import PhotoSearch from './pages/PhotoSearch/PhotoSearch';
 import Blog from './pages/Blog/Blog';
@@ -8,14 +7,14 @@ import Shop from './pages/Shop/Shop';
 import SignIn from './pages/SignIn/SignIn';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing/Landing';
-import Bar from './components/Bar/Bar';
+import Navbar from './components/Bar/Navbar';
 
 function App() {
   return (  
       <Router>
       <div>
         <div>
-          <Bar />
+          <Navbar />
         </div>
         <div>
           <Routes>
