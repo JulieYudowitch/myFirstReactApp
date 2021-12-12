@@ -5,10 +5,6 @@
     background-color: white;
 }
 
-.nav-bar .leftside {
-    flex: 25%;
-}
-
 .nav-bar .rightside {
     display: flex;
     flex: 75%;
@@ -29,7 +25,7 @@
 }
 
 .nav-bar .leftside {
-    flex: 50%;
+    flex: 25%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
