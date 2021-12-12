@@ -7,7 +7,7 @@
 
 .nav-bar .rightside {
     display: flex;
-    flex: 75%;
+    width: 75%;
     justify-content: right;
     align-items: center;
 }
@@ -25,7 +25,7 @@
 }
 
 .nav-bar .leftside {
-    flex: 25%;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: left;
