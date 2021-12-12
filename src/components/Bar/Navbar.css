@@ -6,11 +6,12 @@
 }
 
 .nav-bar .leftside {
-    flex: 25%;
+    flex: 50;
 }
 
 .nav-bar .rightside {
     display: flex;
+    flex: 50%;
     justify-content: center;
     align-items: center;
 }
@@ -64,7 +65,7 @@
      position: absolute;
      left: 0px;
      top: 120px;
-     width: 100%;
+     
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -80,7 +81,5 @@
   .nav-bar .rightside #hidden .nav-link {
     margin: 20px;
     background-color: white;
-    position: relative; 
-    z-index: 100;
   }
 }
