@@ -1,5 +1,6 @@
 .image-search-input {
-    padding: 20px 50px;
+    height: 50px;
+    width: 300px;
 }
 
 .image-search-bar {
@@ -10,11 +11,10 @@
     margin-top:20px;
 }
 
-.image-search-component {
+.image-search-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
     width: 100%;
     background-color: #cacaca;
 }

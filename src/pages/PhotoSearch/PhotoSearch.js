@@ -47,7 +47,7 @@ function PhotoSearch() {
     }, [url])
     
     return (
-        <div className='image-search-component'>
+        <div className='image-search-page'>
 
             <div className='image-search-bar'>
                 <input className='image-search-input' inputmode='search' onChange={handleChange} onKeyPress={handleKeyPress} placeholder='Enter a category' name='photo' type='search' />
@@ -67,7 +67,7 @@ function PhotoSearch() {
             </div>
 
             {
-              !photo && <div className='image-search-prod image-search-overlay'>
+              !photo && <div className='image-search-prod'>
                     <p className='image-search-greeting'>Sometimes I like to just take a minute and look at pictures of cats.  What will you search for?</p>
                 </div>
             }

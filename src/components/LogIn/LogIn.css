@@ -3,20 +3,16 @@
     flex-direction: row;   
     padding: 20px;
     margin: auto;
-    justify-content: space-evenly;
-    box-sizing: border-box;
-    height: 200px;
+    justify-content: space-evenly;   
 }
 
 .sign-in {    
     margin: auto;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+    margin-bottom: 20px;   
 }
 
 .sign-up {
     margin: auto;
-    box-sizing: border-box;
     background-color: rgba(52, 85, 82, 0.5);
     width: 300px;
 }
@@ -42,8 +38,7 @@
 
 @media (max-width: 768px) {
     .login-container {
-        flex-direction: column;
-        padding: 30px;
+        flex-direction: column; 
     }
 
 }

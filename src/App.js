@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
-import SearchImages from'./pages/SearchImages/SearchImages';
+import PhotoSearch from './pages/PhotoSearch/PhotoSearch';
 import Blog from './pages/Blog/Blog';
 import Shop from './pages/Shop/Shop';
 import SignIn from './pages/SignIn/SignIn';
@@ -18,9 +18,8 @@ function App() {
         </div>
         <div>
           <Routes>
-            <Route path="/myFirstReactApp" exact element={<Landing />}></Route>
-            <Route path="/" exact element={<Landing />}></Route> 
-            <Route path="/SearchImages" exact element={<SearchImages />}></Route>
+            <Route path="/myFirstReactApp" exact element={<Landing />}></Route>            
+            <Route path="/PhotoSearch" exact element={<PhotoSearch />}></Route>
             <Route path="/Blog" exact element={<Blog />}></Route>
             <Route path="/Shop" exact element={<Shop />}></Route>
             <Route path="/SignIn" exact element={<SignIn />}></Route>

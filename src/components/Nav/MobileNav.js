@@ -31,7 +31,7 @@ function MobileNav() {
                         <div className='mobile-menu-ul'>
                           <ul>
                             <li><Link to="/myFirstReactApp" className="mobile-nav-link" onClick={() => setOpen(!open)}>Home</Link></li>
-                            <li><Link to="/SearchImages" className="mobile-nav-link" onClick={() => setOpen(!open)}>Search Images</Link></li>
+                            <li><Link to="/PhotoSearch" className="mobile-nav-link" onClick={() => setOpen(!open)}>Search Images</Link></li>
                             <li><Link to="/Blog" className="mobile-nav-link" onClick={() => setOpen(!open)}>Picnic Blog</Link></li>
                             <li><Link to="/Shop" className="mobile-nav-link" onClick={() => setOpen(!open)}>Shop</Link></li>
                             <li><Link to="/SignIn" className="mobile-nav-link" onClick={() => setOpen(!open)}>Log In</Link></li>
