@@ -48,6 +48,10 @@
 }
 
 @media (max-width: 768px) {
+.nav-bar .leftside {
+    margin-left: 0px;
+}
+
   .mobile-menu-icon {
        display: flex;
        margin-right: 20px;
@@ -80,5 +84,6 @@
 
   .logo {
   height: 90%;
+  margin-left: 0px;
 }
 }

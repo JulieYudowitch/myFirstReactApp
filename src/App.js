@@ -13,7 +13,7 @@ function App() {
   return (  
       <Router>
       <div>
-        <div className='nav-bar-component'>
+        <div>
           <Navbar />
         </div>
         <div>
