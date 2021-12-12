@@ -48,9 +48,12 @@
 
 @media (max-width: 768px) {
 
-  .navbar {
+  .nav-bar {
     height: 80px;
-  }
+    display: flex;
+    background-color: white;
+    max-width: 100%;
+}
 
   .mobile-menu-icon {
        margin-right: 10px;
@@ -66,7 +69,7 @@
   .nav-bar .rightside #hidden {  
      position: absolute;
      left: 0px;
-     top: 120px;
+     top: 70px;
      width: 100%;
      display: flex;
      flex-direction: column;
