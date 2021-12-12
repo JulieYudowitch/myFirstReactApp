@@ -8,13 +8,14 @@ import Shop from './pages/Shop/Shop';
 import SignIn from './pages/SignIn/SignIn';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing/Landing';
+import Bar from './components/Bar/Bar';
 
 function App() {
   return (  
       <Router>
       <div>
         <div>
-          <Nav />
+          <Bar />
         </div>
         <div>
           <Routes>
