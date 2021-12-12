@@ -2,6 +2,7 @@
     max-width: 100%;
     height: 130px;
     display: flex;
+    background-color: white;
 }
 
 .nav-bar .leftside {
@@ -62,16 +63,24 @@
   .nav-bar .rightside #hidden {  
      position: absolute;
      left: 0px;
-     top: 130px;
-     height: 700px;
+     top: 120px;
      width: 100%;
      display: flex;
      flex-direction: column;
      align-items: center;
      background-color: white;
+     height: 700px;
   }
 
   .nav-bar .rightside #hidden .nav-bar-links {
+    background-color: white;
+    height: 100%;
+  }
+
+  .nav-bar .rightside #hidden .nav-link {
     margin: 20px;
+    background-color: white;
+    position: relative; 
+    z-index: 100;
   }
 }
