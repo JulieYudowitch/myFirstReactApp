@@ -3,10 +3,10 @@
 }
 
 .landing-page {
-   background-image: url('https://i.ibb.co/kBWsxBb/business-g76b2e88ce-1280.jpg');
+    background-image: url('https://i.ibb.co/kBWsxBb/business-g76b2e88ce-1280.jpg');
    background-size: 100%;
    background-repeat: no-repeat;
-   background-position: top;  
+   background-position: top;
 }
 
 .page-title {
@@ -15,7 +15,7 @@
   align-items: center;
   color: black;
   margin: auto;
-  margin-top: 130px;
+  
 }
 
 .description {
@@ -30,14 +30,15 @@
   margin-left: 20px;
 }
 
-@media (max-width: 768px) {
-   .space {
-      height: 130px;
-      background-color: tomato;
+.space {
+    color: #969494;
    }
 
+@media (max-width: 768px) {
+   
    .page-title {
       display: block;
+      margin-top: 150px;
    }
 
    .logo-on-title {

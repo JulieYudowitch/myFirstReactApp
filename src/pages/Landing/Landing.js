@@ -5,7 +5,7 @@ function Landing() {
     return (
       <div className='landing-page'>
         
-        <span className='space'>jk</span>
+        <span className='space'>.</span>
         
         <div className='page-title'>
               <div>
