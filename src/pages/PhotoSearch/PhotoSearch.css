@@ -1,6 +1,7 @@
 .image-search-input {
     height: 50px;
-    width: 290px;
+    width: 260px;
+    background-color: rgb(204, 197, 197);
 }
 
 .image-search-bar {
@@ -39,7 +40,7 @@
   font-size: xx-large;
   background: none;
   margin-left: 10px;
-  color: white;
+  color: rgb(204, 197, 197);
 }
 
 .image-search-icon:active {
@@ -49,6 +50,7 @@
 .arrows {
   margin-top: 40px;
   margin-bottom: 20px;
+  
 }
 
 .arrow {
@@ -56,7 +58,8 @@
     border: none;
     font-size: x-large;
     margin-left: 40px;
-    margin-right: 40px;   
+    margin-right: 40px; 
+    color: rgb(204, 197, 197);
 }
 
 .arrow:hover {
@@ -65,8 +68,7 @@
 
 .image-search-greeting {
     font-size: 22px;
-    color: white;
-    text-shadow: 1px 1px black;
+    color: rgb(204, 197, 197);
     padding: 20px;
     margin: 20px;
     top: 20px;
