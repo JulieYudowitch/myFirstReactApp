@@ -5,7 +5,7 @@ function Shop() {
         <div className='shop-page'>
             <div className='shop-poster'>
                 <div className='shop-menu'>
-                    <p></p>
+                    <h2 className='promise'>Coming Soon</h2>
 
                 </div>
             </div>

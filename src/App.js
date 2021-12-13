@@ -5,6 +5,7 @@ import PhotoSearch from './pages/PhotoSearch/PhotoSearch';
 import Blog from './pages/Blog/Blog';
 import Shop from './pages/Shop/Shop';
 import SignIn from './pages/SignIn/SignIn';
+import Cart from './pages/Cart/Cart';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing/Landing';
 import Navbar from './components/Navbar/Navbar';
@@ -23,6 +24,7 @@ function App() {
             <Route path="/Blog" exact element={<Blog />}></Route>
             <Route path="/Shop" exact element={<Shop />}></Route>
             <Route path="/SignIn" exact element={<SignIn />}></Route>
+            <Route path="/Cart" exact element={<Cart />}></Route>
           </Routes>
         </div>
         <Footer />
