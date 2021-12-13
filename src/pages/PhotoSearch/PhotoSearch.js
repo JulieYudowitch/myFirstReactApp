@@ -70,7 +70,7 @@ function PhotoSearch() {
                 !photo &&
                 
                 <div className='image-search-prod'>
-                    <div><p className='image-search-greeting'>Sometimes I like to just take a minute and look at pictures of cats.  What will you search for?</p></div>
+                    <div><h3 className='image-search-greeting'>Sometimes I like to just take a minute and look at pictures of cats.  What will you search for?</h3></div>
                     <div className='image-search-prod-cat'><p>.</p></div>
                 </div>
                 

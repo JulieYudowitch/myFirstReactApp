@@ -1,5 +1,6 @@
 .login-container {
     display: flex;
+    align-items: center;
     flex-direction: row;   
     padding: 20px;
     margin: auto;
@@ -18,7 +19,7 @@
 
 .sign-in-button {
    font-size: x-large;
-   margin-top: 40px;
+   
    color: #1e1052;
    background-color: #b3a3eb;
    border: none;
