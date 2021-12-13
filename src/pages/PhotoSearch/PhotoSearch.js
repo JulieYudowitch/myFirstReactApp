@@ -48,8 +48,9 @@ function PhotoSearch() {
     
     return (
         <div className='image-search-page'>
-
+            <h2>Search from millions of images for FREE</h2>
             <div className='image-search-bar'>
+                
                 <input className='image-search-input' inputmode='search' onChange={handleChange} onKeyPress={handleKeyPress} placeholder='Enter a category' name='photo' type='search' />
                 <button type='submit' onClick={handleSubmit} className='image-search-icon'><AiOutlineSearch /></button>                
             </div>   
