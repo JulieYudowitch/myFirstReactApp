@@ -1,6 +1,7 @@
 .login {
    margin-bottom: 40px;
    background-image: url('https://i.ibb.co/MN6Bcc2/blackboard-g117ec1479-1920.jpg');
+   background-position: bottom;
 }
 
 .landing-page {
@@ -8,6 +9,7 @@
    background-size: 100%;
    background-repeat: no-repeat;
    background-position: top;
+   
 }
 
 .page-title {

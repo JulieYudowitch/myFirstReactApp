@@ -1,7 +1,7 @@
 .image-search-input {
     height: 50px;
     width: 260px;
-    background-color: rgb(204, 197, 197);
+    background-color: whitesmoke;
 }
 
 .image-search-bar {
@@ -68,7 +68,7 @@
 
 .image-search-greeting {
     font-size: 22px;
-    color: rgb(204, 197, 197);
+    color: white;
     padding: 20px;
     margin: 20px;
     top: 20px;
