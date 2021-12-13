@@ -5,9 +5,7 @@ function Landing() {
     return (
       <div className='landing-page'>
 
-        <div className='login'>
-            <LogIn />
-        </div>
+        
         
         <div className='title'>
               <div>
@@ -19,7 +17,9 @@ function Landing() {
               </div>          
           </div>
         
-          
+          <div className='login'>
+            <LogIn />
+          </div>
         
       </div>
               
