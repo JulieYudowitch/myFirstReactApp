@@ -2,6 +2,7 @@ import './Navbar.css';
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { FcMenu } from 'react-icons/fc';
+import { HiOutlineShoppingCart } from 'react-icons/hi';
 
 function Navbar() {
     const [showMobileNav, setShowMobileNav] = useState(false);
@@ -9,15 +10,23 @@ function Navbar() {
 
     useEffect(() => {
         let handler = (event) => {
-            if (!menuref.current.contains(event.target)) {
+            if (showMobileNav && menuref.current && !menuref.current.contains(event.target)) {
               setShowMobileNav(false)
             }              
         }
-        document.addEventListener("mousedown", handler)
+        document.addEventListener("click", handler)
         return () => {
-            document.removeEventListener("mousedown", handler)
+            document.removeEventListener("click", handler)
         }
-    })
+    }, [showMobileNav])
+
+    function handleMenuClick() {
+        if (!showMobileNav) {
+            setShowMobileNav(true)
+        } else {
+            setShowMobileNav(false)
+        }
+    }
 
         return (
             <div className='nav-bar'>
@@ -28,14 +37,18 @@ function Navbar() {
                 </div>
            
                 <div className='rightside'>
-                    <div className='nav-bar-links' id={showMobileNav ? 'hidden' : ''} ref={menuref} onClick={() => setShowMobileNav(!showMobileNav)}>
+                    
+                    <div className='nav-bar-links' id={showMobileNav ? 'hidden' : ''} ref={menuref} onClick={handleMenuClick} >
                         <Link to="/myFirstReactApp" className='nav-link'>Home</Link>
                         <Link to="/PhotoSearch" className='nav-link'>Search Images</Link>
                         <Link to="/Blog" className='nav-link'>Picnic Blog</Link>
                         <Link to="/Shop" className='nav-link'>Shop</Link>
                         <Link to="/SignIn" className='nav-link'>Log In</Link>
+                        <Link to="/Cart" className='nav-link'><HiOutlineShoppingCart className='cart-icon' /></Link>
                     </div>
+                    
                     <FcMenu className='mobile-menu-icon' onClick={() => setShowMobileNav(!showMobileNav)} />
+                    
                 </div>
             </div>
         )
