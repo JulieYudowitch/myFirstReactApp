@@ -36,7 +36,7 @@
     display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1040px) {
   .nav-bar .rightside .nav-bar-links .nav-link {
       font-size: 18px;
   }
