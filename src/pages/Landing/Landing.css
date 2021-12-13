@@ -5,15 +5,17 @@
 .landing-page {
    background-image: url('https://i.ibb.co/kBWsxBb/business-g76b2e88ce-1280.jpg');
    background-size: 100%;
-   background-repeat: no-repeat;  
+   background-repeat: no-repeat;
+   background-position: top;  
 }
 
-.title {
+.page-title {
   justify-content: space-evenly;
   display: flex;
   align-items: center;
   color: black;
   margin: auto;
+  margin-top: 130px;
 }
 
 .description {
@@ -29,7 +31,12 @@
 }
 
 @media (max-width: 768px) {
-   .title {
+   .space {
+      height: 130px;
+      background-color: tomato;
+   }
+
+   .page-title {
       display: block;
    }
 

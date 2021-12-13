@@ -4,10 +4,10 @@ import LogIn from '../../components/LogIn/LogIn';
 function Landing() {
     return (
       <div className='landing-page'>
-
         
+        <span className='space'>jk</span>
         
-        <div className='title'>
+        <div className='page-title'>
               <div>
                   <img className='logo-on-title' src='https://i.ibb.co/jk5S5Tm/logotransp.png' alt='Logo for My First React App'/> 
               </div>
