@@ -12,4 +12,10 @@
   padding: 20px;
   height: 500px;
   border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.shop-menu-categories {
+  line-height: 30px;
 }
