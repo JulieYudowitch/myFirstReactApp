@@ -8,14 +8,7 @@ function Shop() {
     const [showShopMenu, setShowShopMenu] = useState(false);
     const [result, setResult] = useState([])
     const toggleShopMenu = () => setShowShopMenu(!showShopMenu);
-    const url = 'https://fakestoreapi.com/products';
     
-    useEffect(() => {
-        axios.get(url).then(response => {
-            console.log(response);
-            setResult(response.data.results)
-        })
-    , [url]})
 
     return (
         <div className='shop-page'>
