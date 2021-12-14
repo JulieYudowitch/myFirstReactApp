@@ -17,5 +17,14 @@
 }
 
 .shop-menu-categories {
+  display: none;
+}
+
+.shop-menu-icon {
+  cursor: pointer;
+}
+
+.shop-menu-categories #hidden {
+  display: flex;
   line-height: 30px;
 }
