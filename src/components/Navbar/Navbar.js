@@ -38,13 +38,13 @@ function Navbar() {
            
                 <div className='rightside'>
                     
-                    <div className='nav-bar-links' id={showMobileNav ? 'hidden' : ''} ref={menuref} >
-                        <p><Link to="/myFirstReactApp" className='nav-link' onClick={handleMenuClick}>Home</Link></p>
-                        <p><Link to="/PhotoSearch" className='nav-link' onClick={handleMenuClick}>Search Images</Link></p>
-                        <p><Link to="/Blog" className='nav-link' onClick={handleMenuClick}>Picnic Blog</Link></p>
-                        <p><Link to="/Shop" className='nav-link' onClick={handleMenuClick}>Shop</Link></p>
-                        <p><Link to="/SignIn" className='nav-link' onClick={handleMenuClick}>Log In</Link></p>
-                        <p><Link to="/Cart" className='nav-link' onClick={handleMenuClick}><HiOutlineShoppingCart className='cart-icon' /></Link></p>
+                    <div className='nav-bar-links' id={showMobileNav ? 'hidden' : ''} >
+                        <p><Link to="/myFirstReactApp" ref={menuref} className='nav-link' onClick={handleMenuClick}>Home</Link></p>
+                        <p><Link to="/PhotoSearch" ref={menuref} className='nav-link' onClick={handleMenuClick}>Search Images</Link></p>
+                        <p><Link to="/Blog" ref={menuref} className='nav-link' onClick={handleMenuClick}>Picnic Blog</Link></p>
+                        <p><Link to="/Shop" ref={menuref} className='nav-link' onClick={handleMenuClick}>Shop</Link></p>
+                        <p><Link to="/SignIn" ref={menuref} className='nav-link' onClick={handleMenuClick}>Log In</Link></p>
+                        <p><Link to="/Cart" ref={menuref} className='nav-link' onClick={handleMenuClick}><HiOutlineShoppingCart className='cart-icon' /></Link></p>
                     </div>
                     
                     <FcMenu className='mobile-menu-icon' onClick={() => setShowMobileNav(!showMobileNav)} />

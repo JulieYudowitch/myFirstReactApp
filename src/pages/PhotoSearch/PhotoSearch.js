@@ -89,4 +89,3 @@ function PhotoSearch() {
 
 export default PhotoSearch;
 
-/*<img className='image-search-prod-cat' src="https://i.ibb.co/mb5hj1X/catcroppedvert.jpg" alt="cat" border="0"/>*/

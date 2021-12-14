@@ -16,15 +16,17 @@
   flex-direction: row;
 }
 
-.shop-menu-categories {
-  display: none;
-}
-
 .shop-menu-icon {
   cursor: pointer;
 }
 
-.shop-menu-categories #hidden {
+#hidden {
+  display: none;
+}
+
+#shown {
   display: flex;
+  flex-direction: column;
   line-height: 30px;
+  background-color: white;
 }
