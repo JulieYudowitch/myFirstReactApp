@@ -45,7 +45,7 @@
 
 .shop-sidebar-menu {
   display: flex;
-  align-items: flex-start;
+  width: 100%;
 }
 
 #shown {
@@ -53,21 +53,22 @@
   flex-direction: column;
   line-height: 40px;
   background-color: white;
-  width: 300px;
+  width: 100%;
+  align-items: flex-start;
 }
 
 .products {
-  display: flex;
-  flex-wrap: wrap;  
+  display: flex;  
   overflow: scroll;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .product-box {
   display: flex;
+  
   flex-direction: row;
   background-color: white;
-  height: 130px;
+  height: 100px;
   margin: 20px;
   padding: 10px;
   border: .5px solid gray;

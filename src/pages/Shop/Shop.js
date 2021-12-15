@@ -49,7 +49,7 @@ function Shop() {
                         return (
                             <div className='product-box'>
                                 <div className='product'>
-                                  <h5>{values.title}</h5>
+                                  <h5></h5>
                                   <p>{values.price}</p>
                                 </div>
                                 <img src={values.image}/>                                
