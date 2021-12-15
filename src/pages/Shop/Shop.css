@@ -19,6 +19,12 @@
 .shop-menu {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.shop-searchbar {
+  display: flex;
+  align-items: center;
 }
 
 .shop-menu-icon {
@@ -26,8 +32,19 @@
   color: black;
 }
 
+.shop-search {
+  margin-left: 10px;
+  height: 2rem;
+  align-self: right;
+}
+
 #hidden-menu {
   display: none;
+}
+
+.shop-sidebar-menu {
+  display: flex;
+  align-items: flex-start;
 }
 
 #shown {
@@ -52,7 +69,7 @@
   height: 130px;
   margin: 20px;
   padding: 10px;
-
+  border: .5px solid gray;
 }
 .product {
   max-width: 100%;

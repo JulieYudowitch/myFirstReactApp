@@ -1,6 +1,7 @@
 import './Shop.css';
 import { useState, useEffect, useRef } from 'react';
 import { GrMenu } from 'react-icons/gr';
+import { AiOutlineSearch } from 'react-icons/ai';
 import axios from 'axios';
 
 function Shop() {
@@ -25,8 +26,12 @@ function Shop() {
             <div className='shop-poster'>
                 
                 <div className='shop-menu'>
-                  <GrMenu className='shop-menu-icon' onClick={toggleShopMenu} />
-                  <div className='shop-sidebar' >                    
+                    <div className='shop-searchbar'>
+                      <GrMenu className='shop-menu-icon' onClick={toggleShopMenu} />
+                      <input className='shop-search' placeholder='search' type='search'></input>
+                    </div>
+                    
+                  <div className='shop-sidebar-menu' >                    
                     <ul id={!showShopMenu ? 'hidden-menu' : 'shown'} onClick={toggleShopMenu}>
                         <li>Women's</li>
                         <li>Men's</li>
