@@ -4,7 +4,6 @@
   background-size: 100%;
   background-color: rgb(32, 54, 54);
   padding: 30px;
-
 }
 
 .shop-poster {
@@ -25,15 +24,17 @@
 .shop-searchbar {
   display: flex;
   align-items: center;
+  height: 50px;
 }
 
 .shop-menu-icon {
   cursor: pointer;
   color: black;
+  font-size: x-large;
 }
 
 .shop-search {
-  margin-left: 10px;
+  margin-left: 20px;
   height: 2rem;
   align-self: right;
 }
