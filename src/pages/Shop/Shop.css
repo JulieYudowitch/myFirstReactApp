@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 
-#hidden {
+#hidden-menu {
   display: none;
 }
 
@@ -29,4 +29,19 @@
   flex-direction: column;
   line-height: 30px;
   background-color: white;
+}
+
+.products {
+  max-width: 100%;
+  overflow: scroll;
+}
+
+.product-box {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  
+}
+.product {
+  max-width: 100%;
 }

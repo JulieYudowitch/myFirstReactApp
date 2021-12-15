@@ -24,7 +24,7 @@ function Shop() {
             <div className='shop-poster'>
                 <FcMenu className='shop-menu-icon' onClick={toggleShopMenu} />
                 <div className='shop-sidebar' >                    
-                    <ul id={!showShopMenu ? 'hidden' : 'shown'} onClick={toggleShopMenu}>
+                    <ul id={!showShopMenu ? 'hidden-menu' : 'shown'} onClick={toggleShopMenu}>
                         <li>Women's</li>
                         <li>Men's</li>
                         <li>Children's</li>
@@ -37,8 +37,13 @@ function Shop() {
                 <div className='products'>
                     {result.map((values) => {
                         return (
-                          <div>
-                                <h5>{values.title}</h5>   
+                            <div className='product-box'>
+                                <div className='product'>
+                                  <h5>{values.title}</h5>
+                                  <p>{values.description}</p>
+                                </div>
+                                <img src={values.image}/>
+                                
                           </div>
                       )
                   })}

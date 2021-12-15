@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.nav-bar .rightside .nav-bar-links {
+  display: flex;
+}
+
 .nav-bar .rightside .nav-bar-links .nav-link {
     text-decoration: none;
     font-size: 25px;
