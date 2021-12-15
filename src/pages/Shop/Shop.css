@@ -32,6 +32,8 @@
 }
 
 .products {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 100%;
   overflow: scroll;
 }
@@ -40,7 +42,10 @@
   display: flex;
   flex-direction: row;
   height: 100px;
-  
+  background-color: white;
+  margin: 20px;
+  width: 40%;
+
 }
 .product {
   max-width: 100%;

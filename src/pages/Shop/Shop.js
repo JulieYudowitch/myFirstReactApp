@@ -40,7 +40,7 @@ function Shop() {
                             <div className='product-box'>
                                 <div className='product'>
                                   <h5>{values.title}</h5>
-                                  <p>{values.description}</p>
+                                  <p>{values.price}</p>
                                 </div>
                                 <img src={values.image}/>
                                 
