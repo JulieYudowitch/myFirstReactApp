@@ -14,7 +14,7 @@ function Shop() {
     }, [])
 
    const fakestore = async () => {
-        const response = await fetch('https://fakestoreapi.com/products?limit=20');
+        const response = await fetch('https://fakestoreapi.com/products?limit=6');
        const jsonData = await response.json();
        setResult(jsonData);
     }    
