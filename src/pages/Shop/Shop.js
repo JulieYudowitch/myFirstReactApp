@@ -1,11 +1,11 @@
 import './Shop.css';
 import { useState, useEffect, useRef } from 'react';
-import { FcMenu } from 'react-icons/fc';
-import { AiOutlineSearch } from 'react-icons/ai';
+import { GrMenu } from 'react-icons/gr';
 import axios from 'axios';
 
 function Shop() {
     const [showShopMenu, setShowShopMenu] = useState(false);
+    const [endPoint, setEndPoint] = useState('products');
     const [result, setResult] = useState([]);
     const toggleShopMenu = () => setShowShopMenu(!showShopMenu);
 
@@ -14,7 +14,7 @@ function Shop() {
     }, [])
 
    const fakestore = async () => {
-        const response = await fetch('https://fakestoreapi.com/products?limit=6');
+        const response = await fetch(`https://fakestoreapi.com/${endPoint}?limit=6`);
        const jsonData = await response.json();
        setResult(jsonData);
     }    
@@ -24,9 +24,9 @@ function Shop() {
 
             <div className='shop-poster'>
                 
-                <div>
-                  <FcMenu className='shop-menu-icon' onClick={toggleShopMenu} />
-                <div className='shop-sidebar' >                    
+                <div className='shop-menu'>
+                  <GrMenu className='shop-menu-icon' onClick={toggleShopMenu} />
+                  <div className='shop-sidebar' >                    
                     <ul id={!showShopMenu ? 'hidden-menu' : 'shown'} onClick={toggleShopMenu}>
                         <li>Women's</li>
                         <li>Men's</li>
@@ -36,7 +36,7 @@ function Shop() {
                         <li>Jewelry</li>
                         <li>Home Decor</li>
                     </ul>
-                </div>
+                  </div>
                 </div>
 
                 <div className='products'>

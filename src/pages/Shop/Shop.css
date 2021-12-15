@@ -13,12 +13,17 @@
   height: 500px;
   border: 1px solid black;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.shop-menu {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .shop-menu-icon {
   cursor: pointer;
-
+  color: black;
 }
 
 #hidden-menu {
@@ -28,24 +33,25 @@
 #shown {
   display: flex;
   flex-direction: column;
-  line-height: 30px;
+  line-height: 40px;
   background-color: white;
+  width: 300px;
 }
 
 .products {
   display: flex;
-  flex-wrap: wrap;
-  max-width: 100%;
+  flex-wrap: wrap;  
   overflow: scroll;
+  justify-content: center;
 }
 
 .product-box {
   display: flex;
   flex-direction: row;
-  height: 120px;
   background-color: white;
+  height: 130px;
   margin: 20px;
-  width: 40%;
+  padding: 10px;
 
 }
 .product {
