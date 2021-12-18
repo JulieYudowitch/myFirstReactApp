@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { selectedProduct, removeSelectedProduct } from '../../redux/actions/productActions';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const ProductDetail = () => {
     const { productId } = useParams();
@@ -39,6 +40,7 @@ const ProductDetail = () => {
                         <p className='product-detail-price'>{price}</p>
                         <p className='product-detail-category'>{category}</p>
                         <p className='product-detail-description'>{description}</p>
+                        <Link to="/Shop"><button>Return to shop</button></Link>
                     </div>
                 </div>
             )}
