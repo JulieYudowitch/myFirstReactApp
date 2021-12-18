@@ -3,24 +3,11 @@ import { useState, useEffect, useRef } from 'react';
 import { GrMenu } from 'react-icons/gr';
 import { AiOutlineSearch } from 'react-icons/ai';
 import axios from 'axios';
+import ProductListing from '../../components/Products/ProductListing';
 
 function Shop() {
     const [showShopMenu, setShowShopMenu] = useState(false);
-    const [endPoint, setEndPoint] = useState('products');
-    const [result, setResult] = useState([]);
-    const [search, setSearch] = useState('');
-    const [url, setUrl] = useState(`https://fakestoreapi.com/${endPoint}?limit=10`)
     const toggleShopMenu = () => setShowShopMenu(!showShopMenu);
-    
-    function handleInput(e) {
-        setSearch(e.target.value);
-    }
-
-    function handleKeyPress(event) {
-        if (event.charCode === 13) {
-            setUrl(`https://fakestoreapi.com/${endPoint}/category/${search}`);
-        }
-    }
 
         return (
             <div className='shop-page'>
@@ -30,7 +17,7 @@ function Shop() {
                     <div className='shop-menu'>
                         <div className='shop-searchbar'>
                             <GrMenu className='shop-menu-icon' onClick={toggleShopMenu} />
-                            <input className='shop-search' inputmode='search' placeholder='search' type='search' onChange={handleInput} onSubmit={handleKeyPress}></input>
+                            <input className='shop-search' inputmode='search' placeholder='search' type='search'></input>
                         </div>
                     
                         <div className='shop-sidebar-menu' >
@@ -47,17 +34,7 @@ function Shop() {
                     </div>
 
                     <div className='products'>
-                        {result.map((values) => {
-                            return (
-                                <div className='product-box'>
-                                    <div className='product'>
-                                        <h5></h5>
-                                        <p>{values.price}</p>
-                                    </div>
-                                    <img src={values.image} />
-                                </div>
-                            )
-                        })}
+                        <ProductListing />
                     </div>
 
                 </div>
