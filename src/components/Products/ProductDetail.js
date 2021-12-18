@@ -33,12 +33,12 @@ const ProductDetail = () => {
                 <div>...Loading</div>
             ) : (
                 <div>
-                    <div>
-                        <p>{title}</p>
-                        <img src={image}/>
-                        <p>{price}</p>
-                        <p>{category}</p>
-                        <p>{description}</p>
+                    <div className='product-detail-card'>
+                        <p className='product-detail-title'>{title}</p>
+                        <img src={image} className='product-detail-image' />
+                        <p className='product-detail-price'>{price}</p>
+                        <p className='product-detail-category'>{category}</p>
+                        <p className='product-detail-description'>{description}</p>
                     </div>
                 </div>
             )}

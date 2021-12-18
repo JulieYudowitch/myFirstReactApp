@@ -11,3 +11,17 @@
 .product-header {
     font-size: x-small;
 }
+
+.product-detail-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-detail-image {
+  max-width: 50%;
+  align-self: center;
+}
+
+.product-detail-page {
+padding: 20px;
+}
