@@ -24,6 +24,7 @@ const ProductListing = () => {
   console.log('products :', products);
   return (
     <div>
+      <h2>Featured Products</h2>
       <Products />
     </div>
   );

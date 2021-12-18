@@ -27,6 +27,7 @@ function App() {
             <Route path="/SignIn" exact element={<SignIn />}></Route>
             <Route path="/Cart" exact element={<Cart />}></Route>
             <Route path='/product/:productId' exact element={<ProductDetail />}></Route>
+            <Route>404 Not Found</Route>
           </Routes>
         </div>
         <Footer />
