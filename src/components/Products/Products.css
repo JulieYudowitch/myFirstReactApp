@@ -1,20 +1,23 @@
 .product-card {
    margin: 10px;
    background-color: white;
-   padding: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   max-width: 100%;
 }
 
 .product-image {
-    height: 100px;
+    height: 80px;
 }
 
 .product-header {
     font-size: x-small;
 }
 
-.product-detail-card {
+.product-component {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .product-detail-image {
@@ -24,4 +27,12 @@
 
 .product-detail-page {
 padding: 20px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
 }

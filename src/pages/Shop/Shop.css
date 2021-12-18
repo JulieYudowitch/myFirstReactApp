@@ -24,7 +24,7 @@
 .shop-searchbar {
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 70px;
 }
 
 .shop-menu-icon {
@@ -58,21 +58,10 @@
   padding-top: 10px;
 }
 
-.products {
-  display: flex;  
-  overflow: scroll;
-  flex-wrap: wrap;
-}
-
-.products {
-  display: flex;
-  
-  flex-direction: row;
-  
-  margin: 20px;
-  padding: 10px;
-  border: .5px solid gray;
-}
 .product {
   max-width: 100%;
+}
+
+.products-box {
+  overflow: scroll;
 }

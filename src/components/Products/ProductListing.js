@@ -23,9 +23,12 @@ const ProductListing = () => {
 
   console.log('products :', products);
   return (
-    <div>
-      <h2>Featured Products</h2>
-      <Products />
+    <div> 
+          <h2>Featured Products</h2>
+          <div  className='products'>
+            <Products />
+          </div>
+      
     </div>
   );
 };

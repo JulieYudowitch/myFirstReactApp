@@ -8,6 +8,7 @@ import ProductListing from '../../components/Products/ProductListing';
 function Shop() {
     const [showShopMenu, setShowShopMenu] = useState(false);
     const toggleShopMenu = () => setShowShopMenu(!showShopMenu);
+    
 
         return (
             <div className='shop-page'>
@@ -33,7 +34,7 @@ function Shop() {
                         </div>
                     </div>
 
-                    <div className='products'>
+                    <div  className='products-box'>
                         <ProductListing />
                     </div>
 
