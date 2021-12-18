@@ -8,60 +8,62 @@ function Shop() {
     const [showShopMenu, setShowShopMenu] = useState(false);
     const [endPoint, setEndPoint] = useState('products');
     const [result, setResult] = useState([]);
+    const [search, setSearch] = useState('');
+    const [url, setUrl] = useState(`https://fakestoreapi.com/${endPoint}?limit=10`)
     const toggleShopMenu = () => setShowShopMenu(!showShopMenu);
+    
+    function handleInput(e) {
+        setSearch(e.target.value);
+    }
 
-    useEffect(() => {
-      fakestore();
-    }, [])
+    function handleKeyPress(event) {
+        if (event.charCode === 13) {
+            setUrl(`https://fakestoreapi.com/${endPoint}/category/${search}`);
+        }
+    }
 
-   const fakestore = async () => {
-        const response = await fetch(`https://fakestoreapi.com/${endPoint}?limit=6`);
-       const jsonData = await response.json();
-       setResult(jsonData);
-    }    
+        return (
+            <div className='shop-page'>
 
-    return (
-        <div className='shop-page'>
-
-            <div className='shop-poster'>
+                <div className='shop-poster'>
                 
-                <div className='shop-menu'>
-                    <div className='shop-searchbar'>
-                      <GrMenu className='shop-menu-icon' onClick={toggleShopMenu} />
-                      <input className='shop-search' placeholder='search' type='search'></input>
-                    </div>
+                    <div className='shop-menu'>
+                        <div className='shop-searchbar'>
+                            <GrMenu className='shop-menu-icon' onClick={toggleShopMenu} />
+                            <input className='shop-search' inputmode='search' placeholder='search' type='search' onChange={handleInput} onSubmit={handleKeyPress}></input>
+                        </div>
                     
-                  <div className='shop-sidebar-menu' >                    
-                    <ul id={!showShopMenu ? 'hidden-menu' : 'shown'} onClick={toggleShopMenu}>
-                        <li>Women's</li>
-                        <li>Men's</li>
-                        <li>Children's</li>
-                        <li>Accessories</li>
-                        <li>Gifts</li>
-                        <li>Jewelry</li>
-                        <li>Home Decor</li>
-                    </ul>
-                  </div>
-                </div>
+                        <div className='shop-sidebar-menu' >
+                            <ul id={!showShopMenu ? 'hidden-menu' : 'shown'} onClick={toggleShopMenu}>
+                                <li>Women's</li>
+                                <li>Men's</li>
+                                <li>Children's</li>
+                                <li>Accessories</li>
+                                <li>Gifts</li>
+                                <li>Jewelry</li>
+                                <li>Home Decor</li>
+                            </ul>
+                        </div>
+                    </div>
 
-                <div className='products'>
-                    {result.map((values) => {
-                        return (
-                            <div className='product-box'>
-                                <div className='product'>
-                                  <h5></h5>
-                                  <p>{values.price}</p>
+                    <div className='products'>
+                        {result.map((values) => {
+                            return (
+                                <div className='product-box'>
+                                    <div className='product'>
+                                        <h5></h5>
+                                        <p>{values.price}</p>
+                                    </div>
+                                    <img src={values.image} />
                                 </div>
-                                <img src={values.image}/>                                
-                          </div>
-                      )
-                  })}
+                            )
+                        })}
+                    </div>
+
                 </div>
-
-            </div>
             
-        </div>
-    )
-}
+            </div>
+        )
+    }
 
-export default Shop;
+    export default Shop;

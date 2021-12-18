@@ -14,6 +14,7 @@
 
 .nav-bar .rightside .nav-bar-links {
   display: flex;
+  padding-bottom: 20px;
 }
 
 .nav-bar .rightside .nav-bar-links .nav-link {
