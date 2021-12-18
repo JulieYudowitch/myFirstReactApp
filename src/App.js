@@ -9,6 +9,7 @@ import Cart from './pages/Cart/Cart';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing/Landing';
 import Navbar from './components/Navbar/Navbar';
+import ProductDetail from './components/Products/ProductDetail';
 
 function App() {
   return (  
@@ -25,6 +26,7 @@ function App() {
             <Route path="/Shop" exact element={<Shop />}></Route>
             <Route path="/SignIn" exact element={<SignIn />}></Route>
             <Route path="/Cart" exact element={<Cart />}></Route>
+            <Route path='/product/:productId' exact element={<ProductDetail />}></Route>
           </Routes>
         </div>
         <Footer />
