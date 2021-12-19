@@ -7,10 +7,10 @@
 }
 
 .shop-poster {
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid black;
   padding: 20px;
   height: 500px;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
 }
@@ -65,4 +65,11 @@
 
 .products-box {
   overflow: scroll;
+}
+
+
+@media (max-width: 768px) {
+  .shop-page {
+    padding: 20px 10px 10px 10px;
+  }
 }
