@@ -21,6 +21,10 @@ const ProductDetail = () => {
             });
         dispatch(selectedProduct(response.data));
     };
+
+    function goBack() {
+  window.history.back()
+}
     useEffect(() => {
         if (productId && productId !== '') fetchProductDetail(productId);
         return () => {
@@ -38,9 +42,8 @@ const ProductDetail = () => {
                         <p className='product-detail-title'>{title}</p>
                         <img src={image} className='product-detail-image' />
                         <p className='product-detail-price'>{price}</p>
-                        <p className='product-detail-category'>{category}</p>
                         <p className='product-detail-description'>{description}</p>
-                        <Link to="/Shop"><button>Return to shop</button></Link>
+                        <button onClick={goBack}>Return to shop</button>
                     </div>
                 </div>
             )}

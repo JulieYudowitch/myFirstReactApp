@@ -19,7 +19,6 @@ function Products() {
               <div className='product-content'>
                 <div className='product-header'>{title}</div>
                 <div>$ {price}</div>
-                <div>{category}</div>
               </div>  
             
             </div>          

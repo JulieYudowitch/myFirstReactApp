@@ -8,17 +8,27 @@ import ProductListing from '../../components/Products/ProductListing';
 function Shop() {
     const [showShopMenu, setShowShopMenu] = useState(false);
     const toggleShopMenu = () => setShowShopMenu(!showShopMenu);
-    
+    const [url, setUrl] = useState('');
+    const [search, setSearch] = useState('');
+
+    function handleChange(e) {
+        setSearch(e.target.value)
+    }
+
+    function handleSubmit() {
+        setUrl(`https://fakestoreapi.com/products/category/${search}`)
+    }
 
         return (
             <div className='shop-page'>
 
                 <div className='shop-poster'>
-                
+                    
                     <div className='shop-menu'>
+
                         <div className='shop-searchbar'>
                             <GrMenu className='shop-menu-icon' onClick={toggleShopMenu} />
-                            <input className='shop-search' inputmode='search' placeholder='search' type='search'></input>
+                            <input className='shop-search' inputmode='search' placeholder='search' type='search' onChange={handleChange} onSubmit={handleSubmit}></input>                            
                         </div>
                     
                         <div className='shop-sidebar-menu' >
@@ -32,7 +42,9 @@ function Shop() {
                                 <li>Home Decor</li>
                             </ul>
                         </div>
+
                     </div>
+                    
 
                     <div  className='products-box'>
                         <ProductListing />
